@@ -2,10 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-    .titulo-principal
-      .h3 1.	Formatos y exportación
-    
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 1
+      h1 Formatos y exportación
+
+
     .row.BG01.align-items-center.mb-4
       .col-lg-6
         p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un códec, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, códec + contenedor = formato de video.
@@ -93,7 +95,7 @@
     #MapaGroup01
     .row.justify-content-center.align-items-center.p-4.mb-4
       .col-lg-3.col-sm-4.mb-4
-        button.buttom.color-primario.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+        button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
           .row.justify-content-center.align-items-center
             .col-lg-12
               img.center.t(src='@/assets/curso/tema1/img16.svg')
@@ -110,9 +112,8 @@
           .row.justify-content-center.align-items-center
             .col-lg-12
               img.center.t(src='@/assets/curso/tema1/img18.svg')
-              h5.mt-3 Formatos para redes 
-              | #[strong sociales]
-
+              h5.mt-3 Formatos para redes sociales
+              
       .col-lg-12.position-relative
         .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
           .row.mb-4
@@ -138,7 +139,7 @@
           .row.justify-content-center.mb-4
             .col-lg-8.p-2
               .row.mb-4
-                .col-lg-4.BG04
+                .col-lg-4.BG04.p-2
                   h4.text-white.mb-0 Formatos de imagen: 
               p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de bits (bitmaps) o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.  
               .cajon.color-acento-botones.p-4
@@ -149,8 +150,8 @@
             .col-lg-7
               figure.mb-5
                 img(src="@/assets/curso/tema1/img09.png")
-            .col-lg-4
-              SlyderF.mb-5(columnas="col-12")
+            .col-lg-5
+              SlyderF.mb-5
                 .BG06.p-4
                   .row.justify-content-center.mb-4
                     .col-lg-6

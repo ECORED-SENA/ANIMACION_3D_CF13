@@ -70,33 +70,32 @@
                   span.text-white Ver          
 
       #t_2_2.titulo-segundo
-      .h4 2.2 Convocatorias anuales para proyectos artísticos, culturales y festivales
+        .h4 2.2 Convocatorias anuales para proyectos artísticos, culturales y festivales
       p.mb-4 A continuación, se podrá ver algunas convocatorias que generalmente se hacen anualmente en Colombia para proyectos artísticos, culturales y festivales:
-       
-        #imagen_infografica.titulo-segundo.color-acento-botones
-        ImagenInfografica.color-primario.mb-5
-          template(v-slot:imagen)
-            figure 
-            .col-md-9.justify-content-center
-              img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')       
-          .tarjeta.color-acento-botones.p-3(x="4%" y="10%" numero="1")
-            p Programa Nacional de Estímulos
-          .tarjeta.color-acento-botones.p-3(x="32%" y="15%" numero="2")
-            p Programa departamental de Estímulos
-          .tarjeta.color-acento-botones.p-3(x="40%" y="20%" numero="3")
-            p Programa Distrital de Estímulos 2021
-          .tarjeta.color-acento-botones.p-3(x="28%" y="27%" numero="4")
-            p Convocatoria Jóvenes en Movimiento
-          .tarjeta.color-acento-botones.p-3(x="34%" y="39%" numero="5")
-            p Convocatoria Laboratorio Startup de APPS.CO 
-          .tarjeta.color-acento-botones.p-3(x="43%" y="35%" numero="6")
-            p Semilleros de Emprendimiento Digital de Apps.co
-          .tarjeta.color-acento-botones.p-3(x="42%" y="50%" numero="7")
-            p Fondo Emprender del SENA
-          .tarjeta.color-acento-botones.p-3(x="40%" y="70%" numero="8")
-            p Programa Nacional de Concertación Cultural
-          .tarjeta.color-acento-botones.p-3(x="32%" y="55%" numero="9")
-            p Festivales de emprendimiento: Héroes Fest e InspiraTIC
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-8   
+          ImagenInfografica.color-primario.mb-5
+            template(v-slot:imagen)
+              figure 
+                img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')       
+            .tarjeta.color-acento-botones.p-4(x="53%" y="11%" numero="1")
+              p Programa Nacional de Estímulos
+            .tarjeta.color-acento-botones.p-3(x="44%" y="15%" numero="2")
+              p Programa departamental de Estímulos
+            .tarjeta.color-acento-botones.p-3(x="48%" y="30%" numero="3")
+              p Programa Distrital de Estímulos 2021
+            .tarjeta.color-acento-botones.p-3(x="35%" y="27%" numero="4")
+              p Convocatoria Jóvenes en Movimiento
+            .tarjeta.color-acento-botones.p-3(x="34%" y="39%" numero="5")
+              p Convocatoria Laboratorio Startup de APPS.CO 
+            .tarjeta.color-acento-botones.p-3(x="43%" y="35%" numero="6")
+              p Semilleros de Emprendimiento Digital de Apps.co
+            .tarjeta.color-acento-botones.p-3(x="42%" y="50%" numero="7")
+              p Fondo Emprender del SENA
+            .tarjeta.color-acento-botones.p-3(x="40%" y="70%" numero="8")
+              p Programa Nacional de Concertación Cultural
+            .tarjeta.color-acento-botones.p-3(x="32%" y="55%" numero="9")
+              p Festivales de emprendimiento: Héroes Fest e InspiraTIC
 
       .row.align-items-center.BG03.p-3
               .col-7
@@ -169,15 +168,16 @@
             i.fas.fa-caret-right
             | Festival de Cine e Infancia y Adolescencia.
       .row.align-items-center.BG03.p-3
-              .col-7
-                p Para conocer en detalle el total de festivales y muestras de cine colombiano que se realizan en el país, puede visitar el siguiente enlace: 
-              .col-1
-              .col-3
-                .mb-3              
-                  a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx /" target="_blank")
-                    span.text-white Ver 
-                    br
-                    br 
+        .col-7
+          p Para conocer en detalle el total de festivales y muestras de cine colombiano que se realizan en el país, puede visitar el siguiente enlace: 
+        .col-1
+        .col-3
+          .row
+            .col-12
+          .mb-3              
+            a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx /" target="_blank")
+              span.text-white.mb-4 Ver 
+   
     .cajon.color-acento-botones.p-4
       p El proyecto de animación puede ser presentado en diversos eventos dedicados al mundo del entretenimiento digital, para ello debes tenerlo preparado; es decir, haber hecho todo el proceso de pipeline y demás, y así poder participar de dichos eventos.
 

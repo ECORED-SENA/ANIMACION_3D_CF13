@@ -29,75 +29,30 @@
       #t_3_1.titulo-segundo
       .h4 3.1 Fuentes de financiación
       p.mb-4 Uno de los primeros obstáculos que se encuentran los emprendedores es la financiación, porque por encima de la creatividad, de las ideas geniales y de los proyectos exportables, el capital es la chispa de la vida para estos negocios. Sabiendo esto, es importante que se conozcan un poco dichas fuentes de financiación: 
-
-      .row.BG08
-        .tarjeta.color-primario-botones--borde.p-4(titulo="1")
-          h4 Bancos e instituciones financieras: 
-          p es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
-        .tarjeta.color-primario-botones--borde.p-4(titulo="2")
-          h4 Fondos de inversión:  
-          p estos fondos de capital privado son los que más están enfocados en los startups del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. Asobancaria los define como herramientas que administran recursos de personas interesadas en invertir en compañías con potencial de crecimiento y que no cotizan en bolsa de valores.
-        .tarjeta.color-primario-botones--borde.p-4(titulo="2")
-          h4 Ángeles Inversionistas:  
-          p son personas naturales, grupos o empresarios que invierten en negocios, generalmente de emprendimientos, de los que esperan obtener un retorno mayor al que se da en inversiones tradicionales. En este tipo de proyectos, el riesgo es inferior al que enfrenta una empresa nueva, en especial en los primeros tres años de haber sido creada. A cambio de su inversión, se ven a menudo muy involucrados en el negocio.
-        .tarjeta.color-primario-botones--borde.p-4(titulo="2")
-          h4 Crowdfunding: 
-          p es una fuente de financiación que cada vez tiene más aceptación en el sector creativo. Se basa en la donación de pequeñas cantidades a cambio de recompensas o ventajas. Este formato permite que la organización tenga el control del proyecto y saber de primera mano los intereses de sus donantes. Con la Bolsa de Valores de Colombia (BVC) fue desarrollada una plataforma de crowdfunding para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
-        .tarjeta.color-primario-botones--borde.p-4(titulo="2")
-          h4 Aceleradoras e Incubadoras de Empresas: 
-          p son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
-        .tarjeta.color-primario-botones--borde.p-4(titulo="2")
-          h4 Fondos cinematográficos: 
-          p fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
-            .row.justify-content-center.mb-4
-              .col-lg-10
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img03.png')
-                  .col-6
-                    h4 Proimágenes Colombia
-                    p Formación a través de Festivales de Cine. 
-                  .col-1
-                  .col-3
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
-                        span.text-white Ver 
-            .row.justify-content-center.mb-4
-              .col-lg-10
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img04.png')
-                  .col-6
-                    h4 Proimágenes Colombia
-                    p Fondo para el Desarrollo Cinematográfico.
-                  .col-1
-                  .col-3
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
-                        span.text-white Ver 
-            .row.justify-content-center.mb-4
-              .col-lg-10
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img03.png')
-                  .col-10
-                    h4 Convocatoria FDC 
-                    p Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
-                  .col-4
-                  .col-8
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
-                        span.text-white Cortometrajes:  
-                      a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
-                        span.text-white Largometrajes:  
-                  .row
-                    .col-lg-6
-                      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        .anexo__icono
-                          img(src="@/assets/curso/tema3/img03.png")
-                        .anexo__texto 
-                          p Ver anexo PDF: Fondos cinematográficos.pdf
-                          p Para otros fondos cinematográficos internacionales que aplican también para Colombia se anexa el documento a continuación: 
+      
+    .row.mb-4  
+      .col-lg-10
+        LineaTiempoD.color-primario
+          p.text-small(numero="1" titulo="Bancos e instituciones financieras:") es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
+          p.text-small(numero="2" titulo="Fondos de inversión:") estos fondos de capital privado son los que más están enfocados en los startups del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. Asobancaria los define como herramientas que administran recursos de personas interesadas en invertir en compañías con potencial de crecimiento y que no cotizan en bolsa de valores.
+          p.text-small(numero="3" titulo="Ángeles Inversionistas:") es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
+          p.text-small(numero="4" titulo="Crowdfunding:") es una fuente de financiación que cada vez tiene más aceptación en el sector creativo. Se basa en la donación de pequeñas cantidades a cambio de recompensas o ventajas. Este formato permite que la organización tenga el control del proyecto y saber de primera mano los intereses de sus donantes. Con la Bolsa de Valores de Colombia (BVC) fue desarrollada una plataforma de crowdfunding para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
+          p.text-small(numero="5" titulo="Aceleradoras e Incubadoras de Empresas:") son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
+          p.text-small(numero="6" titulo="Fondos cinematográficos:") fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
+            row.mb-4
+              .col-2
+                img(src='@/assets/curso/tema3/img03.png')
+                .col-7
+                  h4 Proimágenes Colombia
+                  p Formación a través de Festivales de Cine.
+                .col-1
+                .col-3
+                  .mb-3
+                    a.boton.BG04.me-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                      span.text-white Ver video
+        .col-6
+            h4 Proimágenes Colombia
+            p Formación a través de Festivales de Cine. 
 
         .tarjeta.color-primario-botones--borde.p-4(titulo="2")
           h4 Crowfunding:

@@ -157,7 +157,7 @@
 
       .row.BG08
       #t_3_2.titulo-segundo
-      .h4 3.2 Fuentes de financiación
+      .h4 3.2 Marketing digital
       p.mb-4 Se trata de una serie de acciones que se ponen en marcha para que una organización pueda alcanzar unos objetivos determinados. Estos objetivos se definen con anterioridad mediante un análisis de mercado y de la competencia. De esta forma se puede saber qué es lo que la empresa necesita y cómo obtener los mejores resultados.
     .row.BG08.align-items-center.mb-2
       .col-lg-9
@@ -200,7 +200,7 @@
     
     p Aspectos a tener en cuenta:
     #MapaGroup01.row.justify-content-center.p-4.mb-4
-      .col-lg-2.col-sm-4.mb-4
+      .col-lg-3.col-sm-4.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
           .row.justify-content-center
             .col-lg-8.col-sm-6.mb-4
@@ -208,7 +208,7 @@
             .col-12
               p.text-bold.text-center.mb-0 Publicidad y marketing 
               p.text-bold.text-center.mb-0 en la web 
-      .col-lg-2.col-sm-4.mb-4
+      .col-lg-3.col-sm-4.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
           .row.justify-content-center
             .col-lg-8.col-sm-6.mb-4
@@ -216,20 +216,21 @@
             .col-12
               p.text-bold.text-center.mb-0 Plan de medios 
               p.text-bold.text-center.mb-0 digitales
-      .col-lg-2.col-sm-4.mb-4
+      .col-lg-3.col-sm-4.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
           .row.justify-content-center
             .col-lg-8.col-sm-6.mb-4
               img(src='@/assets/curso/tema3/13.png')
             .col-12
               p.text-bold.text-center.mb-0 Los escenarios 
-      .col-lg-2.col-sm-4.mb-4
+      .col-lg-3.col-sm-4.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4')
           .row.justify-content-center
             .col-lg-8.col-sm-6.mb-4
               img(src='@/assets/curso/tema3/14.png')              
             .col-12
-              p.text-bold.text-center.mb-0 Medios de difusión digitales
+              p.text-bold.text-center.mb-0 Medios de difusión 
+              p.text-bold.text-center.mb-0 digitales
       .col-lg-12.position-relative
         .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
           .row.mb-4
@@ -256,8 +257,8 @@
 
         .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
           .row.mb-4
-            .col-lg-4.BG04
-              h4.text-white.mb-0 Plan de medios digitales 
+            .col-lg-4.BG04.p-2
+              h4.text-white.mb- Plan de medios digitales 
           .row.justify-content-center.mb-4
             .col-lg-8.p-2
             .bloque-texto-g.BG09.p-3.p-sm-4.p-md-5

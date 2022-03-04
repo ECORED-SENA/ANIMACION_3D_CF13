@@ -144,7 +144,6 @@
                     h4 NonStop:  
                     p Se desarrolla en Barcelona, en él los jóvenes talentos pueden presentar sus Elevator pitch a productores, el premio para los que ganen, es un pase para El Festival Internacional de Cine de Animación Internacional por excelencia Annecy. Su enlace es:
                   .col-11
-                  .col-1
                     .mb-3
                       a.boton.BG09.me-3(href="https://www.nonstopbarcelona.com/  " target="_blank")
                         span.text-white Ver  

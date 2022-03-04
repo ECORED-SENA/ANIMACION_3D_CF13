@@ -1,15 +1,14 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    .titulo-principal
-      .titulo-principal__numero
-        span
-          i.fas.fa-info
-      h1 Introducción
+  .container.tarjeta.tarjeta--blanca.p-3.p-md-5.mb-4
+    .titulo-principal.color-acento-contenido
+      .titulo-principal
+        .titulo-principal__numero
+          span i         
+        h1 Introducción
 
-    .row.justify-content-center.BGIMG01.p-4 
+    .row.justify-content-center.BGIMG01.p-3 
       .col-lg-10
         <br><br><br><br>
         .row

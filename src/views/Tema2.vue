@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
+        span 2.
       h1 Plataformas de distribución, festivales y medios de financiación
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5

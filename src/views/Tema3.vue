@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
+        span 3.
       h1 Plataformas de distribución
 
 
@@ -83,15 +83,17 @@
                       a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
                         span.text-white Cortometrajes:  
                       a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
-                        span.text-white Largometrajes:  
-                  .row
-                    .col-lg-6
-                      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                        .anexo__icono
-                          img(src="@/assets/curso/tema3/img03.png")
-                        .anexo__texto 
-                          p Ver anexo PDF: Fondos cinematográficos.pdf
-                          p Para otros fondos cinematográficos internacionales que aplican también para Colombia se anexa el documento a continuación: 
+                        span.text-white Largometrajes: 
+
+          .row.BG011.p-3.justify-content-center.mb-4
+            .col-lg-10
+              p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
+              p.text-white.mb-2  Para otros fondos cinematográficos internacionales que aplican también para Colombia se anexa el documento a continuación: 
+            .col-lg-2
+              a.boton.color-acento2.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
+                         
         .tarjeta.color-primario-botones--borde.p-4(numero="7" titulo="Crowfunding")
           p Son plataformas de recolección de capital a través de donaciones online de manera colectiva para apoyar propuestas de diferentes índoles, en las cuales pueden participar proyectos audiovisuales. A continuación, se verán algunas:
             .row.justify-content-center.mb-4
@@ -146,14 +148,15 @@
                     .mb-3
                       a.boton.BG09.me-3(href="https://www.nonstopbarcelona.com/  " target="_blank")
                         span.text-white Ver  
-          .row
-            .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/curso/tema3/img03.png")
-                .anexo__texto 
-                  p Ver anexo PDF: 
-                  p Para conocer otras plataformas de Crowdfunding se anexa el documento a continuación:  
+    
+          .row.BG011.p-3.justify-content-center.mb-4
+            .col-lg-10
+              p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
+              p.text-white.mb-2  Para conocer otras plataformas de Crowdfunding se anexa el documento a continuación:
+            .col-lg-2
+              a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
 
       .row.BG08
       #t_3_2.titulo-segundo
@@ -178,7 +181,6 @@
         h2.text-center Herramienta eficaz
         p El marketing digital se ha convertido en  una herramienta eficaz y un facilitador de procesos para el comercio nacional e internacional, que junto a nuevas y diversas técnicas, puede idear modelos de negocios y estrategias orientadas a detectar nuevas oportunidades en los mercados globales.
 
-
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -187,7 +189,6 @@
           
           h2.text-center Comunicación
           p Para lo cual se exige que las empresas desarrollen formas  de comunicación  que se integren a un plan de marketing; de esta manera  las empresas logren segmentar sus mercados tanto como conocer los medios sociales que se utilizan en cada país, los profesionales del marketing digital consideran que si un producto o servicio no se encuentra en Internet simplemente no existe. 
-
 
       .col-md.tarjeta.color-secundario.p-5
           .row.justify-content-center.mb-4
@@ -374,9 +375,7 @@
                   p Dentro del mundo del emprendimiento en muchas ocasiones se deja para el final los métodos de pago, siendo estos hoy en día quizá una de las fórmulas más eficaces para rentabilizar ganancias. Existen diversas formas para ofrecer el pago de productos o servicios a través de la página web, en función del público objetivo y las características especiales de cada negocio, será más recomendable optar por unas u otras. Es por ello que se deberá realizar un análisis sobre la forma más conveniente de recibir pago de manera óptima y segura para ambas partes de la negociación.
                 .col-md-5
                     img(src='@/assets/curso/tema3/30.svg', alt='Texto que describa la imagen')
-                        
-
-
+       
 
         .multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
           .row.mb-4

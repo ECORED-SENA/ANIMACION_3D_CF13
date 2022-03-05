@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2.
+        span 2
       h1 Plataformas de distribución, festivales y medios de financiación
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -72,8 +72,8 @@
       .col-lg-4
         img(src="@/assets/curso/tema2/img04.png")
       .col-lg-8
-        p.mb-4 Para Pedro Fuentes Rueda en Claves fundamentales para hacer un buen pitching
-        p.mb-4 En el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el PITCHING como metodología para presentar los proyectos antes posibles financiadores. PITCHING quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.         
+        p.mb-4 Para Pedro Fuentes Rueda en Claves fundamentales para hacer un buen <i>pitching</i>
+        p.mb-4 En el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el <i>PITCHING</i> como metodología para presentar los proyectos antes posibles financiadores. <i>PITCHING</i> quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.         
         .BG04.p-2
           h4.text-white.mb-0 Publicado en la web: https://www.unir.net/humanidades/revista/claves-fundamentales-para-hacer-un-buen-pitching-audiovisual/
 
@@ -82,13 +82,13 @@
         img(src="@/assets/curso/tema2/img05.png")
       .col-lg-6
         i.fas.fa-quote-left
-        p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un códec, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, códec + contenedor = formato de video.
+        p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
       .col-lg-4
         img(src="@/assets/curso/tema2/img06.png")
       .col-lg-8.mb-4
         .row.align-items-center.BG03.p-3
           .col-9
-            p Para saber más sobre Pitching audiovisual, puede visitar el siguiente video: TINET RUBIRA (2020). Pitching: cómo vender nuestro proyecto | Creación Audiovisual. 
+            p Para saber más sobre <i>Pitching</i> audiovisual, puede visitar el siguiente video: <i>TINET RUBIRA</i> (2020). <i>Pitching</i>: cómo vender nuestro proyecto | Creación Audiovisual. 
           .col-1
             .mb-3              
               a.boton.BG04.me-3(href="https://www.youtube.com/watch?v=fQPPpvuNzxk" target="_blank")
@@ -120,7 +120,7 @@
             .tarjeta.color-acento-botones.p-3(x="62%" y="75%" numero="8")
               p Programa Nacional de Concertación Cultural
             .tarjeta.color-acento-botones.p-3(x="40%" y="61%" numero="9")
-              p Festivales de emprendimiento: Héroes Fest e InspiraTIC
+              p Festivales de emprendimiento: Héroes <i>Fest e InspiraTIC</i>
 
       .row.align-items-center.BG03.p-3
               .col-10
@@ -138,7 +138,7 @@
         img(src="@/assets/curso/tema2/img09.png")
       
       .col-lg-7
-        .roe.mb-4
+        .row.mb-4
         ul.lista-ul
           li 
             i.fas.fa-caret-right

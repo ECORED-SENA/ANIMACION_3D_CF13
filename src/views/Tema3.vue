@@ -5,7 +5,7 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3.
+        span 3
       h1 Plataformas de distribución
 
 
@@ -90,7 +90,7 @@
               p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
               p.text-white.mb-2  Para otros fondos cinematográficos internacionales que aplican también para Colombia se anexa el documento a continuación: 
             .col-lg-2
-              a.boton.color-acento2.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento2.me-3(:href="obtenerLink('/downloads/Fondos_cinematograficos.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
                          
@@ -153,7 +153,7 @@
               p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
               p.text-white.mb-2  Para conocer otras plataformas de Crowdfunding se anexa el documento a continuación:
             .col-lg-2
-              a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/Crowfounding.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
 

@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1.
+        span 1
       h1 Formatos y exportación
 
 
@@ -15,7 +15,7 @@
         img(src="@/assets/curso/tema1/img01.png")
 
     #t_1_1.titulo-segundo
-      .h4 1.1 Relación de aspecto (Aspect ratio) 
+      .h4 1.1 Relación de aspecto (<i>Aspect ratio</i>) 
 
     .row.mb-4
       .col.lg-5
@@ -40,7 +40,7 @@
       .col-md-6.mb-5.mb-md-0
         img(src="@/assets/curso/tema1/img04.png")
 
-    p.mb-4 A continuación, en la figura 1 se puede observar una comparativa de relación de aspecto (aspect ratio) con una resolución de tamaño proporcional a 720 px. donde se logra apreciar que algunos formatos son cuadrados, rectangulares o muy apaisados: 
+    p.mb-4 A continuación, en la figura 1 se puede observar una comparativa de relación de aspecto (<i>aspect ratio</i>) con una resolución de tamaño proporcional a 720 px. donde se logra apreciar que algunos formatos son cuadrados, rectangulares o muy apaisados: 
    
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -74,16 +74,21 @@
           .col-1
             img(src='@/assets/curso/tema1/img08.png')
           .col-7
-            h4 Aspect ratio
-            p En los siguientes videos, podremos observar cómo ajustar los parámetros para realizar la salida de video desde Blender, ajustando el aspect ratio, codec y contenedor.
+            h4 <i>Aspect ratio</i>
+            p En los siguientes videos, podremos observar cómo ajustar los parámetros para realizar la salida de video desde Blender, ajustando el <i>aspect ratio</i>, codec y contenedor.
           .col-1
           .col-3
             .mb-3
-              a.boton.BG04.me-3(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.boton.BG04.me-3(href="https://www.youtube.com/embed/HQDSwdRIVbo" target="_blank")
                 span.text-white Ver video
-    
+              a.boton.BG04.me-3(href="https://www.youtube.com/embed/PuCPB6B2fYY" target="_blank")
+                 span.text-white Ver video
+  
     separador
-    h3 1.2 Tipos de Formato
+    #t_1_2.titulo-segundo
+      .h4 1.2 Tipos de Formato
+  
+
 
     .row.align-items-center.BG05.p-4.mb-4      
       .col-md-6.mb-4.mb-md-0
@@ -132,7 +137,7 @@
                 p.text-small(numero="4" titulo="Contenedor FLV:") Actualmente de reducido su uso, fue el formato más común en reproductores en línea, no se recomienda trabajar en este formato puesto que se ha terminado la compatibilidad para él.
                 p.text-small(numero="5" titulo="Contenedor MOV:") Calidad alta pero limitada compatibilidad, además de generar archivos muy grandes. ideal para archivar videos de alta calidad.
                 p.text-small(numero="6" titulo="Contenedor WMV:") Este tipo de formato genera videos pequeños ideales para ser enviados por correo, como muestra de avances. Pierde calidad significativamente al ser archivos pequeños.
-                p.text-small(numero="7" titulo="Contenedor DIVX/XviD:") Codec antiguo que aún circula, diseñado para tener calidad de video alta, pero a su vez tamaños de archivos grandes. Usado frecuentemente para el almacenamiento y transporte en discos duros.
+                p.text-small(numero="7" titulo="Contenedor DIVX/XviD:") <i>Codec</i> antiguo que aún circula, diseñado para tener calidad de video alta, pero a su vez tamaños de archivos grandes. Usado frecuentemente para el almacenamiento y transporte en discos duros.
                 p.text-small(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de bits tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
       
         .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
@@ -141,7 +146,7 @@
               .row.mb-4
                 .col-lg-4.BG04.p-2
                   h4.text-white.mb-0 Formatos de imagen: 
-              p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de bits (bitmaps) o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.  
+              p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de <i>bits (bitmaps)</i> o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.  
               .cajon.color-acento-botones.p-4
                 h3 Existen diferentes formatos en los cuales se pueden almacenar datos de imagen: 
             .col.lg-4
@@ -194,13 +199,13 @@
                 figure
                   img(src='@/assets/curso/tema1/img12.jpg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                p.text-small #[strong Formato MPEG-2:] salida en codificación de audio: Dolby AC-3 o MPEG Layer II, bits de audio: 128 kbps o superior.
-                p.text-small #[strong Formato MPEG-4:] códec de video: H.264, Códec de audio: AAC, bits de audio: 128 kbps o superior.
-                p.text-small #[strong Duración] mínima: 33, velocidad de frames, debe ser igual al video original (24, 25 o 30 frames.) Sin aplicarle procesos de remuestreo.
+                p.text-small #[strong Formato MPEG-2:] salida en codificación de audio: <i>Dolby</i> AC-3 o MPEG <i>Layer</i> II, <i>bits</i> de audio: 128 kbps o superior.
+                p.text-small #[strong Formato MPEG-4:] <i>códec</i> de video: H.264, <i>Códec</i> de audio: AAC, <i>bits</i> de audio: 128 kbps o superior.
+                p.text-small #[strong Duración] mínima: 33, velocidad de <i>frames</i>, debe ser igual al video original (24, 25 o 30 <i>frames</i>.) Sin aplicarle procesos de remuestreo.
                 p.text-small #[strong Resolución:] la resolución mínima para videos en venta o alquiler es full HD 1920x1080, en relación aspecto 16:9, para videos gratis no hay restricción de resolución, pero lo ideal es que no sea menor a HD 1280x720.
 
             .row(numero="B" titulo="Formato de video para Instagram: ")
-              p.text-small formato .mp4, ratio vertical 9:16, ratio horizontal 16:9, ratio 1:1 Cuadrada: 1080 x 1080 px - Horizontal: 1080 x 566 px - Vertical: 1080 x 1350 px.
+              p.text-small formato .mp4, <i>ratio</i> vertical 9:16,<i>ratio</i> horizontal 16:9, ratio 1:1 Cuadrada: 1080 x 1080 px - Horizontal: 1080 x 566 px - Vertical: 1080 x 1350 px.
               .col-lg-2
                 figure
                   img(src='@/assets/curso/tema1/img13.jpg', alt='Texto que describa la imagen')
@@ -222,14 +227,14 @@
                 p.text-small Formato de 1080 x 1920 píxeles.
 
             .row(numero="F" titulo="Formatos para Facebook: ")
-              P.text-small formato .mp4 o .mov. La relación aspecto puede variar, para cada uno de los apartados de Facebook, noticias, marketplace, instream, Stories. Entre ellos están los siguientes:
+              P.text-small formato .mp4 o .mov. La relación aspecto puede variar, para cada uno de los apartados de Facebook, noticias, <i>marketplace</i>, <i>instream</i>, Stories. Entre ellos están los siguientes:
               .col-lg-2
                 figure
                   img(src='@/assets/curso/tema1/img14.jpg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                p.text-small 16:9, ratio horizontal: 1920 x 1080 px.
-                p.text-small 1:1 ratio cuadrado: 1080 x 1080 px.
-                p.text-small 4:5 ratio Vertical: 864 x 1080 px.
+                p.text-small 16:9, <i>ratio</i> horizontal: 1920 x 1080 px.
+                p.text-small 1:1 <i>ratio</i> cuadrado: 1080 x 1080 px.
+                p.text-small 4:5 <i>ratio</i> Vertical: 864 x 1080 px.
                 p.text-small 9:16 _ 1080x1920 px. 
 
             .row(numero="G" titulo="Formato de video para Twitter:")
@@ -238,9 +243,7 @@
                   img(src='@/assets/curso/tema1/img15.jpg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 P.text-small 1280 x 1024 px.
-                p.text-small Aspect ratio: 1:2,39 -2,39:1.
-
-            
+                p.text-small <i>Aspect ratio</i>: 1:2,39 -2,39:1.
 
 
 </template>

@@ -8,7 +8,7 @@
         span 2
       h1 Plataformas de distribución, festivales y medios de financiación
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.svg')})`}"
       )
@@ -195,7 +195,7 @@
         .col-11
           p Para conocer en detalle el total de festivales y muestras de cine colombiano que se realizan en el país, puede visitar el siguiente enlace: 
         .col-1
-          a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx /" target="_blank")
+          a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx/" target="_blank")
             span.text-white.mb-2 Ver 
    
     .cajon.color-acento-botones.p-4

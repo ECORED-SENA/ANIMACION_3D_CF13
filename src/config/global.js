@@ -197,7 +197,7 @@ export default {
     {
       texto: 'Alvaro Films. (2021). After Effects Demo Reel 2021.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=51XWb2npjfU ',
+      descarga: 'https://www.youtube.com/watch?v=51XWb2npjfU',
     },
   ],
   creditos: {

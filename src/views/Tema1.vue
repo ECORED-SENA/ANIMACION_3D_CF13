@@ -9,8 +9,8 @@
 
 
     .row.BG01.align-items-center.mb-4
-      .col-lg-6
-        p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un códec, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, códec + contenedor = formato de video.
+      .col-lg-6.pl-3
+        p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
       .col.lg-6
         img(src="@/assets/curso/tema1/img01.png")
 
@@ -32,11 +32,11 @@
     .row.mb-5
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-primario
-          p.text-small(numero="1" titulo="Relación Aspecto 1:1:") significa que la altura y el ancho son iguales, lo cual crea un cuadrado visualmente, una de las resoluciones más comunes son 1080 x 1080, la típica imagen como foto de perfil de Instagram. También es muy común el uso de impresión fotográfica, pantallas de móviles, plataformas sociales, pero no se recomienda para televisión o formatos digitales  
-          p.text-small(numero="2" titulo="Relación Aspecto 3:2:") es el formato estándar gracias a las cámaras filmadoras que utilizaban películas de 35 milímetros, representado en píxeles su tamaño común es de 1080 x 720 px.
+          p.text-small(numero="1" titulo="Relación Aspecto 1:1:") Significa que la altura y el ancho son iguales, lo cual crea un cuadrado visualmente, una de las resoluciones más comunes son 1080 x 1080, la típica imagen como foto de perfil de Instagram. También es muy común el uso de impresión fotográfica, pantallas de móviles, plataformas sociales, pero no se recomienda para televisión o formatos digitales  
+          p.text-small(numero="2" titulo="Relación Aspecto 3:2:") Es el formato estándar gracias a las cámaras filmadoras que utilizaban películas de 35 milímetros, representado en píxeles su tamaño común es de 1080 x 720 px.
           p.text-small(numero="3" titulo="Relación Aspecto 4:3 (1.33:1):") Relación Aspecto 4:3 (1.33:1):
-          p.text-small(numero="4" titulo="Relación aspecto 16:9 (1.77:1):") este es el formato de pantalla estándar utilizado de televisión de alta definición, su tamaño más común en pixeles es 1920x1080 px y 1280 x 720 px.
-          p.text-small(numero="5" titulo="Relación aspecto 21:9 (2.35:1):") este es el formato más usado en cine, con una dimensión en píxeles de 2560 x 1080 px o 3440 x 1440 tienen un formato de tamaño mucho más apaisado que el de 16:9.
+          p.text-small(numero="4" titulo="Relación aspecto 16:9 (1.77:1):") Este es el formato de pantalla estándar utilizado de televisión de alta definición, su tamaño más común en pixeles es 1920x1080 px y 1280 x 720 px.
+          p.text-small(numero="5" titulo="Relación aspecto 21:9 (2.35:1):") Este es el formato más usado en cine, con una dimensión en píxeles de 2560 x 1080 px o 3440 x 1440 tienen un formato de tamaño mucho más apaisado que el de 16:9.
       .col-md-6.mb-5.mb-md-0
         img(src="@/assets/curso/tema1/img04.png")
 
@@ -88,8 +88,6 @@
     #t_1_2.titulo-segundo
       .h4 1.2 Tipos de Formato
   
-
-
     .row.align-items-center.BG05.p-4.mb-4      
       .col-md-6.mb-4.mb-md-0
         p Hay diversidad de formatos que se pueden utilizar para exportar e importar imágenes y videos, para que al reproducirlos dependiendo de la plataforma que se establezca para ello, se visualicen de manera óptima y correcta, entre ellos se va a encontrar los siguientes:
@@ -132,13 +130,13 @@
             .col-lg-6.mb-5.mb-md-0
               LineaTiempoD.color-primario
                 p.text-small(numero="1" titulo="Contenedor MP4:") Conservan alta calidad, manteniendo un tamaño reducido. Es de los más utilizados actualmente, se usa frecuentemente para compartir en línea, puede contener datos adicionales como subtítulos e imágenes estáticas. Es combinado generalmente con h.264 y h.265.
-                p.text-small(numero="2" titulo="Contenedor AVI:") Formato de video posicionado y antiguo, tiende a generar archivos grandes, pero soportados por gran variedad de códecs. No es útil para la transmisión en línea.
+                p.text-small(numero="2" titulo="Contenedor AVI:") Formato de video posicionado y antiguo, tiende a generar archivos grandes, pero soportados por gran variedad de <i>códecs</i>. No es útil para la transmisión en línea.
                 p.text-small(numero="3" titulo="Contenedor MKV:") Formato de video profesional de código abierto llamado matroska en el cual se pueden almacenar anexados al canal de audio, varios tipos de subtítulos, varias pistas de audio.
                 p.text-small(numero="4" titulo="Contenedor FLV:") Actualmente de reducido su uso, fue el formato más común en reproductores en línea, no se recomienda trabajar en este formato puesto que se ha terminado la compatibilidad para él.
                 p.text-small(numero="5" titulo="Contenedor MOV:") Calidad alta pero limitada compatibilidad, además de generar archivos muy grandes. ideal para archivar videos de alta calidad.
                 p.text-small(numero="6" titulo="Contenedor WMV:") Este tipo de formato genera videos pequeños ideales para ser enviados por correo, como muestra de avances. Pierde calidad significativamente al ser archivos pequeños.
                 p.text-small(numero="7" titulo="Contenedor DIVX/XviD:") <i>Codec</i> antiguo que aún circula, diseñado para tener calidad de video alta, pero a su vez tamaños de archivos grandes. Usado frecuentemente para el almacenamiento y transporte en discos duros.
-                p.text-small(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de bits tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
+                p.text-small(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de <i>bits</i> tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
       
         .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
           .row.justify-content-center.mb-4
@@ -202,7 +200,7 @@
                 p.text-small #[strong Formato MPEG-2:] salida en codificación de audio: <i>Dolby</i> AC-3 o MPEG <i>Layer</i> II, <i>bits</i> de audio: 128 kbps o superior.
                 p.text-small #[strong Formato MPEG-4:] <i>códec</i> de video: H.264, <i>Códec</i> de audio: AAC, <i>bits</i> de audio: 128 kbps o superior.
                 p.text-small #[strong Duración] mínima: 33, velocidad de <i>frames</i>, debe ser igual al video original (24, 25 o 30 <i>frames</i>.) Sin aplicarle procesos de remuestreo.
-                p.text-small #[strong Resolución:] la resolución mínima para videos en venta o alquiler es full HD 1920x1080, en relación aspecto 16:9, para videos gratis no hay restricción de resolución, pero lo ideal es que no sea menor a HD 1280x720.
+                p.text-small #[strong Resolución:] La resolución mínima para videos en venta o alquiler es full HD 1920x1080, en relación aspecto 16:9, para videos gratis no hay restricción de resolución, pero lo ideal es que no sea menor a HD 1280x720.
 
             .row(numero="B" titulo="Formato de video para Instagram: ")
               p.text-small formato .mp4, <i>ratio</i> vertical 9:16,<i>ratio</i> horizontal 16:9, ratio 1:1 Cuadrada: 1080 x 1080 px - Horizontal: 1080 x 566 px - Vertical: 1080 x 1350 px.

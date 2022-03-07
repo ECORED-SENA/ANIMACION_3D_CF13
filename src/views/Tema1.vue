@@ -7,14 +7,14 @@
         span 1
       h1 Formatos y exportación
 
-
-    .row.BG01.align-items-center.mb-4
-      .col-lg-6.pl-3
+    .row.BG01.align-items-center.my-4
+      .col-lg-6.my-5.padding-left
         p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
       .col.lg-6
-        img(src="@/assets/curso/tema1/img01.png")
+        figure.customfigure
+          img(src="@/assets/curso/tema1/img01.png").customimage
 
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo.color-acento-contenido
       .h4 1.1 Relación de aspecto (<i>Aspect ratio</i>) 
 
     .row.mb-4
@@ -77,23 +77,23 @@
             h4 <i>Aspect ratio</i>
             p En los siguientes videos, podremos observar cómo ajustar los parámetros para realizar la salida de video desde Blender, ajustando el <i>aspect ratio</i>, codec y contenedor.
           .col-1
-          .col-3
-            .mb-3
+          .col-2
+           .mb-4
               a.boton.BG04.me-3(href="https://www.youtube.com/embed/HQDSwdRIVbo" target="_blank")
                 span.text-white Ver video
               a.boton.BG04.me-3(href="https://www.youtube.com/embed/PuCPB6B2fYY" target="_blank")
                  span.text-white Ver video
   
     separador
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo.color-acento-contenido
       .h4 1.2 Tipos de Formato
   
-    .row.align-items-center.BG05.p-4.mb-4      
+    .row.align-items-center.BG05.p-3.mb-3     
       .col-md-6.mb-4.mb-md-0
         p Hay diversidad de formatos que se pueden utilizar para exportar e importar imágenes y videos, para que al reproducirlos dependiendo de la plataforma que se establezca para ello, se visualicen de manera óptima y correcta, entre ellos se va a encontrar los siguientes:
       .col-md-6
-        figure
-          img(src='@/assets/curso/tema1/img_08.png')
+        figure.customfigure
+          img(src='@/assets/curso/tema1/img_08.png').customimage
     
     #MapaGroup01
     .row.justify-content-center.align-items-center.p-4.mb-4
@@ -155,31 +155,31 @@
                 img(src="@/assets/curso/tema1/img09.png")
             .col-lg-5
               SlyderF.mb-5
-                .BG06.p-4
+                .tarjeta-1.BG06.p-4
                   .row.justify-content-center.mb-4
                     .col-lg-6
                       img(src='@/assets/curso/tema1/img11.png' alt='AvatarTop')
                   h2.text-center JEG/pnG:
                   p.text-center Es uno de los formatos más comunes, usado generalmente en las cámaras fotográficas digitales que comprime los archivos manteniéndolos ligeros para que puedan ser fácilmente visualizados, compartidos y publicados en red; sin embargo, su principal inconveniente es que cada vez que el archivo se edita y se vuelve a guardar va perdiendo calidad, además no es apto para guardar texto, ilustraciones o gráficos simples.
-                .BG06.p-4
+                .tarjeta-1.BG06.p-4
                   .row.justify-content-center.mb-4
                     .col-lg-6
                       img(src='@/assets/curso/tema1/img12.png' alt='AvatarTop')
                   h2.text-center GIF:
                   p.text-center Es un formato de compresión sin pérdidas manteniendo los archivos ligeros, y es altamente compatible por lo que a menudo se usa para compartir principalmente, gráficos webs sencillos y animaciones cortas sin sonido (GIF animados).
-                .BG06.p-4
+                .tarjeta-1.BG06.p-4
                   .row.justify-content-center.mb-4
                     .col-lg-6
                       img(src='@/assets/curso/tema1/img13.png')
                   h2.text-center PNG:
                   p.text-center Se trata de un formato de compresión diseñado para gráficos web usado como mejora del GIF, y al igual que éste, no presenta pérdidas de calidad al editarse, permitiendo archivos más grandes e imágenes más complejas con colores sólidos y líneas nítidas; a diferencia de los GIF, pueden contener un grado de transparencia brindando mayor flexibilidad al editar o crear imágenes y gráficos en la web, aunque sin permitir la animación de los mismos, además solo admiten colores RGB y su compatibilidad es limitada.
-                .BG06.p-4
+                .tarjeta-1.BG06.p-4
                   .row.justify-content-center.mb-4
                     .col-lg-6
                       img(src='@/assets/curso/tema1/img14.png' alt='AvatarTop')
                   h2.text-center BMP:
                   p.text-center Se trata de un formato sin compresión o su tasa es demasiado baja, en el cual se registra cada píxel de la matriz que compone una imagen. Es altamente compatible por lo que anteriormente se utilizaba mucho en la edición de imágenes, aunque presenta un gran problema debido a que el tamaño de los archivos es enorme y por lo tanto, son muy pesados.
-                .BG06.p-4
+                .tarjeta-1.BG06.p-4
                   .row.justify-content-center.mb-4
                     .col-lg-6
                       img(src='@/assets/curso/tema1/img15.png')

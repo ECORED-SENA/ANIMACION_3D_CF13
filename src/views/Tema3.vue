@@ -26,11 +26,12 @@
           p.text-small(numero="3" titulo="indyon.tv:") Es un medio de exhibición de cine independiente, <i>online</i>, colombiana, para productores audiovisuales, en una sección se pueden registrar títulos gratis, cabe destacar que a su vez cuenta con <i>crowdfunding</i>
           p.text-small(numero="4" titulo="Vimeo") Plataforma de alojamiento de videos monetizable, con reproductor personalizable, sin anuncios, donde el contenido de video se puede volver contenido por suscripción.
 
-      #t_3_1.titulo-segundo
-      .h2 3.1 Fuentes de financiación
+
+      #t_3_1.titulo-segundo.color-acento-contenido
+       h4 3.1 Fuentes de financiación
       p.mb-4 Uno de los primeros obstáculos que se encuentran los emprendedores es la financiación, porque por encima de la creatividad, de las ideas geniales y de los proyectos exportables, el capital es la chispa de la vida para estos negocios. Sabiendo esto, es importante que se conozcan un poco dichas fuentes de financiación: 
       
-      LineaTiempoD.color-primario
+      LineaTiempoD.color-primario.espaciar_1
         .tarjeta.color-primario-botones--borde.p-4(numero="1" titulo="Bancos e instituciones financieras")
           p Es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
         .tarjeta.color-primario-botones--borde.p-4(numero="2" titulo="Fondos de inversión")
@@ -56,6 +57,22 @@
                     .mb-3
                       a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
                         span.text-white Ver 
+
+              .col-lg-10
+                .tarjeta-avatar-b.mb-5
+                  .tarjeta-avatar-b__img
+                    img(src='@/assets/curso/tema3/img03.png' alt='AvatarTop')
+                  .tarjeta.tarjeta--blanca
+                    .p-4
+                      h4 Proimágenes Colombia
+                      p Formación a través de Festivales de Cine. 
+                    .col-1
+                    .col-3
+                      .mb-3
+                      a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
+                        span.text-white Ver   
+
+
             .row.justify-content-center.mb-4
               .col-lg-10
                 .row.align-items-center.BG06.p-3
@@ -144,6 +161,7 @@
                     h4 NonStop:  
                     p Se desarrolla en Barcelona, en él los jóvenes talentos pueden presentar sus <i>Elevator pitch</i> a productores, el premio para los que ganen, es un pase para El Festival Internacional de Cine de Animación Internacional por excelencia Annecy. Su enlace es:
                   .col-11
+                  .col-1 
                     .mb-3
                       a.boton.BG09.me-3(href="https://www.nonstopbarcelona.com/  " target="_blank")
                         span.text-white Ver  
@@ -157,9 +175,9 @@
                 span Descargar
                 i.fas.fa-file-download
 
-      .row.BG08
-      #t_3_2.titulo-segundo
-      .h4 3.2 <i>Marketing</i> digital
+     
+      #t_3_2.titulo-segundo.color-acento-contenido
+        h4 3.2 <i>Marketing</i> digital
       p.mb-4 Se trata de una serie de acciones que se ponen en marcha para que una organización pueda alcanzar unos objetivos determinados. Estos objetivos se definen con anterioridad mediante un análisis de mercado y de la competencia. De esta forma se puede saber qué es lo que la empresa necesita y cómo obtener los mejores resultados.
     .row.BG08.align-items-center.mb-2
       .col-lg-9

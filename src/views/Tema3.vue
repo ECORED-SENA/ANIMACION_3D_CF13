@@ -44,30 +44,18 @@
           p Son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
         .tarjeta.color-primario-botones--borde.p-4(numero="6" titulo="Fondos cinematográficos")
           p Fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
-            .row.justify-content-center.mb-4
-              .col-lg-10
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img03.png')
-                  .col-6
-                    h4 Proimágenes Colombia
-                    p Formación a través de Festivales de Cine. 
-                  .col-1
-                  .col-3
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
-                        span.text-white Ver 
-
+            .row.justify-content-center.mb-4      
               .col-lg-10
                 .tarjeta-avatar-b.mb-5
                   .tarjeta-avatar-b__img
+                    .col-1                  
                     img(src='@/assets/curso/tema3/img03.png' alt='AvatarTop')
                   .tarjeta.tarjeta--blanca
                     .p-4
                       h4 Proimágenes Colombia
-                      p Formación a través de Festivales de Cine. 
+                      p Formación a través de Festivales de Cine.     
                     .col-1
-                    .col-3
+                    .col-2
                       .mb-3
                       a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
                         span.text-white Ver   

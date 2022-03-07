@@ -6,14 +6,14 @@
       .titulo-principal__numero
         span 2
       h1 Plataformas de distribución, festivales y medios de financiación
-
+      
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.svg')})`}"
       )
       .bloque-texto-g__texto.p-5
         p.mb-4 A continuación, se podrán observar las plataformas de distribución, festivales de animación y cine, así como también varias maneras de gestionar medios de financiación para nuestros proyectos. Para ello hay ciertas pautas y requerimientos que dependiendo de las plataformas serán más o menos iguales, hay que tener en cuenta en cada uno los requisitos solicitados a la hora de aplicar para ellos. 
-    separador
+      
     #t_2_1.titulo-segundo.color-acento-contenido
       .h4 2.1 Proyectos para convocatorias y concursos
     p.mb-4 A raíz de la implementación de la Ley 1834 de 2017 con la que se fomenta la economía creativa y se regula la Ley Naranja, el país ha abierto espacios significativos para el desarrollo de las industrias culturales y creativas. A continuación, se verá una explicación al respecto:
@@ -81,13 +81,14 @@
         .row.align-items-center.BG03.p-3
           .col-9
             p Para saber más sobre <i>Pitching</i> audiovisual, puede visitar el siguiente video: <i>TINET RUBIRA</i> (2020). <i>Pitching</i>: cómo vender nuestro proyecto | Creación Audiovisual. 
-          .col-1             
+          .col-1
+            .mb-4              
               a.boton.BG04.me-3(href="https://www.youtube.com/watch?v=fQPPpvuNzxk" target="_blank")
-                span.text-white Ver          
-
-      #t_2_2.titulo-segundo.color-acento-contenido
-        .h4 2.2 Convocatorias anuales para proyectos artísticos, culturales y festivales
-      p.mb-4 A continuación, se podrá ver algunas convocatorias que generalmente se hacen anualmente en Colombia para proyectos artísticos, culturales y festivales:
+                span.text-white Ver                     
+        
+    #t_2_2.titulo-segundo.color-acento-contenido
+      .h4 2.2 Convocatorias anuales para proyectos artísticos, culturales y festivales
+    p.mb-4 A continuación, se podrá ver algunas convocatorias que generalmente se hacen anualmente en Colombia para proyectos artísticos, culturales y festivales:
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-9   
           ImagenInfografica.color-primario.mb-5
@@ -121,6 +122,7 @@
                   a.boton.BG04.me-3(href="https://economianaranja.gov.co/convocatorias/" target="_blank")
                     span.text-white Ver  
 
+    separador
     #t_2_3.titulo-segundo.color-acento-contenido
       .h4 2.3 Convocatorias para proyectos audiovisuales
 
@@ -130,57 +132,57 @@
       
       .col-lg-7
         .row.mb-4
-        ul.lista-ul
-          li 
-            i.fas.fa-caret-right
+        ul.lista-ul--color
+          li
+            <i class="fas fa-caret-right fa-lg"></i>
             | Convocatorias Audiovisuales MinTIC. 
-        ul.lista-ul 
+        ul.lista-ul--color 
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Crea digital.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Ampliación beneficios Ley Filmación Colombia al sector audiovisual.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Ley 814 de 2003: Estímulos e incentivos para las creación, producción, coproducción y realización de largometrajes y cortometrajes colombianos.
-        ul.lista-ul--separador
+        ul.lista-ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival de Cine Verde de Barichara.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival Internacional de Cine Independiente de Villa de Leyva.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival Internacional de Cine de Cartagena.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival de Cine Corto de Popayán.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival de Cine de Bogotá.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival Internacional de Cine de Cali.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival Internacional de Cine de Santander.
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival Internacional de Cine de Barranquilla
-        ul.lista-ul--separador
+        ul.lista-ul--color
           li 
-            i.fas.fa-caret-right
+            <i class="fas fa-caret-right fa-lg"></i>
             | Festival de Cine e Infancia y Adolescencia.
       .row.align-items-center.BG03.p-3
         .col-11
@@ -188,7 +190,7 @@
         .col-1
           a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx/" target="_blank")
             span.text-white.mb-2 Ver 
-   
+        
     .cajon.color-acento-botones.p-4
       p El proyecto de animación puede ser presentado en diversos eventos dedicados al mundo del entretenimiento digital, para ello debes tenerlo preparado; es decir, haber hecho todo el proceso de pipeline y demás, y así poder participar de dichos eventos.
 

@@ -2,7 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -27,155 +26,147 @@
           p.text-small(numero="4" titulo="Vimeo") Plataforma de alojamiento de videos monetizable, con reproductor personalizable, sin anuncios, donde el contenido de video se puede volver contenido por suscripción.
 
 
-      #t_3_1.titulo-segundo.color-acento-contenido
-       h4 3.1 Fuentes de financiación
-      p.mb-4 Uno de los primeros obstáculos que se encuentran los emprendedores es la financiación, porque por encima de la creatividad, de las ideas geniales y de los proyectos exportables, el capital es la chispa de la vida para estos negocios. Sabiendo esto, es importante que se conozcan un poco dichas fuentes de financiación: 
+    #t_3_1.titulo-segundo.color-acento-contenido
+      h4 3.1 Fuentes de financiación
+    p.mb-4 Uno de los primeros obstáculos que se encuentran los emprendedores es la financiación, porque por encima de la creatividad, de las ideas geniales y de los proyectos exportables, el capital es la chispa de la vida para estos negocios. Sabiendo esto, es importante que se conozcan un poco dichas fuentes de financiación: 
       
-      LineaTiempoD.color-primario.espaciar_1
-        .tarjeta.color-primario-botones--borde.p-4(numero="1" titulo="Bancos e instituciones financieras")
-          p Es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
-        .tarjeta.color-primario-botones--borde.p-4(numero="2" titulo="Fondos de inversión")
-          p Estos fondos de capital privado son los que más están enfocados en los startups del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. Asobancaria los define como herramientas que administran recursos de personas interesadas en invertir en compañías con potencial de crecimiento y que no cotizan en bolsa de valores.
-        .tarjeta.color-primario-botones--borde.p-4(numero="3" titulo="Ángeles Inversionistas")
-          p Son personas naturales, grupos o empresarios que invierten en negocios, generalmente de emprendimientos, de los que esperan obtener un retorno mayor al que se da en inversiones tradicionales. En este tipo de proyectos, el riesgo es inferior al que enfrenta una empresa nueva, en especial en los primeros tres años de haber sido creada. A cambio de su inversión, se ven a menudo muy involucrados en el negocio.
-        .tarjeta.color-primario-botones--borde.p-4(numero="4" titulo="<i>Crowdfunding</i>")
-          p Es una fuente de financiación que cada vez tiene más aceptación en el sector creativo. Se basa en la donación de pequeñas cantidades a cambio de recompensas o ventajas. Este formato permite que la organización tenga el control del proyecto y saber de primera mano los intereses de sus donantes. Con la Bolsa de Valores de Colombia (BVC) fue desarrollada una plataforma de <i>crowdfunding</i> para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
-        .tarjeta.color-primario-botones--borde.p-4(numero="5" titulo="Aceleradoras e Incubadoras de Empresas")
-          p Son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
-        .tarjeta.color-primario-botones--borde.p-4(numero="6" titulo="Fondos cinematográficos")
-          p Fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
-            .row.justify-content-center.mb-4      
-              .col-lg-10
-                .tarjeta-avatar-b.mb-5
-                  .tarjeta-avatar-b__img
-                    .col-1                  
-                    img(src='@/assets/curso/tema3/img03.png' alt='AvatarTop')
-                  .tarjeta.tarjeta--blanca
-                    .p-4
-                      h4 Proimágenes Colombia
-                      p Formación a través de Festivales de Cine.     
-                    .col-1
-                    .col-2
-                      .mb-3
-                      a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
-                        span.text-white Ver   
-
-
-            .row.justify-content-center.mb-4
-              .col-lg-10
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img04.png')
-                  .col-6
-                    h4 Proimágenes Colombia
-                    p Fondo para el Desarrollo Cinematográfico.
-                  .col-1
-                  .col-3
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
-                        span.text-white Ver 
-            .row.justify-content-center.mb-4
-              .col-lg-10
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img03.png')
-                  .col-10
-                    h4 Convocatoria FDC 
-                    p Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
-                  .col-4
-                  .col-8
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
-                        span.text-white Cortometrajes:  
-                      a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
-                        span.text-white Largometrajes: 
-
-          .row.BG011.p-3.justify-content-center.mb-4
+    LineaTiempoD.color-primario.espaciar_1
+      .tarjeta.color-primario-botones--borde.p-4(numero="1" titulo="Bancos e instituciones financieras")
+        p Es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
+      .tarjeta.color-primario-botones--borde.p-4(numero="2" titulo="Fondos de inversión")
+        p Estos fondos de capital privado son los que más están enfocados en los startups del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. Asobancaria los define como herramientas que administran recursos de personas interesadas en invertir en compañías con potencial de crecimiento y que no cotizan en bolsa de valores.
+      .tarjeta.color-primario-botones--borde.p-4(numero="3" titulo="Ángeles Inversionistas")
+        p Son personas naturales, grupos o empresarios que invierten en negocios, generalmente de emprendimientos, de los que esperan obtener un retorno mayor al que se da en inversiones tradicionales. En este tipo de proyectos, el riesgo es inferior al que enfrenta una empresa nueva, en especial en los primeros tres años de haber sido creada. A cambio de su inversión, se ven a menudo muy involucrados en el negocio.
+      .tarjeta.color-primario-botones--borde.p-4(numero="4" titulo="<i>Crowdfunding</i>")
+        p Es una fuente de financiación que cada vez tiene más aceptación en el sector creativo. Se basa en la donación de pequeñas cantidades a cambio de recompensas o ventajas. Este formato permite que la organización tenga el control del proyecto y saber de primera mano los intereses de sus donantes. Con la Bolsa de Valores de Colombia (BVC) fue desarrollada una plataforma de <i>crowdfunding</i> para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
+      .tarjeta.color-primario-botones--borde.p-4(numero="5" titulo="Aceleradoras e Incubadoras de Empresas")
+        p Son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
+      .tarjeta.color-primario-botones--borde.p-4(numero="6" titulo="Fondos cinematográficos")
+        p Fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
+          .row.justify-content-center.mb-4      
             .col-lg-10
-              p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
-              p.text-white.mb-2  Para otros fondos cinematográficos internacionales que aplican también para Colombia se anexa el documento a continuación: 
-            .col-lg-2
-              a.boton.color-acento2.me-3(:href="obtenerLink('/downloads/Fondos_cinematograficos.pdf')" target="_blank" type="application/pdf")
-                span Descargar
-                i.fas.fa-file-download
-                         
-        .tarjeta.color-primario-botones--borde.p-4(numero="7" titulo="<i>Crowfunding</i>")
-          p Son plataformas de recolección de capital a través de donaciones <i>online</i> de manera colectiva para apoyar propuestas de diferentes índoles, en las cuales pueden participar proyectos audiovisuales. A continuación, se verán algunas:
-            .row.justify-content-center.mb-4
-              .col-lg-12
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img06.png')
-                  .col-10
-                    h4 PDE 2021 
-                    p Consiste en un estímulo de 20 millones de pesos en 3 pagos para la generación de una pieza de animación en la cual el tema principal sea los oficios y los conocimientos tradicionales que se expresan en el centro de Bogotá. En el siguiente enlace encontrarás la convocatoria: 
-                  .col-11
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  .col-1                  
+                  img(src='@/assets/curso/tema3/img03.png' alt='AvatarTop')
+                .tarjeta.tarjeta--blanca
+                  .p-4
+                    h4 Proimágenes Colombia
+                    p Formación a través de Festivales de Cine.      
+                          a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
+                            span.text-white Ver   
+
+          .row.justify-content-center.mb-4
+            .col-lg-10
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
                   .col-1
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://sicon.scrd.gov.co/convocatorias/714// " target="_blank")
+                  img(src='@/assets/curso/tema3/img04.png')
+                .tarjeta.tarjeta--blanca
+                  .P-4
+                  h4 Proimágenes Colombia
+                  p Fondo para el Desarrollo Cinematográfico.
+                        a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
+                          span.text-white Ver 
+          .row.justify-content-center.mb-4
+            .col-lg-10
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  .col-1
+                  img(src='@/assets/curso/tema3/img04.png')
+                .tarjeta.tarjeta--blanca
+                  .P-4
+                  h4 Convocatoria FDC 
+                  p Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
+                    .col-lg-6               
+                          a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
+                              span.text-white Cortometrajes: 
+                          a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
+                              span.text-white Largometrajes: 
+
+        .row.BG011.p-3.justify-content-center.mb-4
+          .col-lg-10
+            p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
+            p.text-white.mb-2  Para otros fondos cinematográficos internacionales que aplican también para Colombia se anexa el documento a continuación: 
+          .col-lg-2
+            a.boton.color-acento2.me-3(:href="obtenerLink('/downloads/Fondos_cinematograficos.pdf')" target="_blank" type="application/pdf")
+              span Descargar
+              i.fas.fa-file-download
+                        
+      .tarjeta.color-primario-botones--borde.p-4(numero="7" titulo="<i>Crowfunding</i>")
+        p Son plataformas de recolección de capital a través de donaciones <i>online</i> de manera colectiva para apoyar propuestas de diferentes índoles, en las cuales pueden participar proyectos audiovisuales. A continuación, se verán algunas:
+          .row.justify-content-center.mb-4
+            .col-lg-10
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  .col-1
+                  img(src='@/assets/curso/tema3/img04.png')
+                .tarjeta.tarjeta--blanca
+                  .P-4.justify-content-center.mb-4
+                  h4 PDE 2021 
+                  p Consiste en un estímulo de 20 millones de pesos en 3 pagos para la generación de una pieza de animación en la cual el tema principal sea los oficios y los conocimientos tradicionales que se expresan en el centro de Bogotá. En el siguiente enlace encontrarás la convocatoria: 
+                    .col-lg-6  
+                      a.boton.text-align-right.BG09.me-3(href="https://sicon.scrd.gov.co/convocatorias/714// " target="_blank")
                         span.text-white Ver          
-            .row.justify-content-center.mb-4
-              .col-lg-12
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img06.png')
-                  .col-10
-                    h4 PIXELATL 
-                    p Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. para 2021 tienen varias categorías, las cuales verás en el enlace:
-                  .col-11
+          .row.justify-content-center.mb-4
+             .col-lg-10
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
                   .col-1
-                    .mb-3
+                  img(src='@/assets/curso/tema3/img04.png')
+                .tarjeta.tarjeta--blanca
+                  .P-4.justify-content-center.mb-4
+                  h4 PIXELATL 
+                  p Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. para 2021 tienen varias categorías, las cuales verás en el enlace:
+                    .col-lg-6  
                       a.boton.BG09.me-3(href="https://ideatoon.com/que-es// " target="_blank")
                         span.text-white Ver    
-          .row.justify-content-center.mb-4
-              .col-lg-12
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img06.png')
-                  .col-10
-                    h4 Binding The Gap BTG: 
-                    p Con sede en España, pero abierto a personas de todo el mundo, su premisa es preparar el proyecto para lanzarlo al mercado de la animación. <i>“Bridging The Gap”</i> es un taller intensivo en el que jóvenes profesionales y estudiantes con talento tienen la oportunidad de conocer y crear sinergias con profesionales influyentes y responsables en el trabajo de toma de decisiones en el ámbito de la animación. El enlace a su página está disponible a continuación: 
-                  .col-11
-                  .col-1
-                    .mb-3
-                      a.boton.BG09.me-3(href="http://bthegap.com/es/inicio/ " target="_blank")
-                        span.text-white Ver   
-          .row.justify-content-center.mb-4
-              .col-lg-12
-                .row.align-items-center.BG06.p-3
-                  .col-2
-                    img(src='@/assets/curso/tema3/img06.png')
-                  .col-10
-                    h4 NonStop:  
-                    p Se desarrolla en Barcelona, en él los jóvenes talentos pueden presentar sus <i>Elevator pitch</i> a productores, el premio para los que ganen, es un pase para El Festival Internacional de Cine de Animación Internacional por excelencia Annecy. Su enlace es:
-                  .col-11
-                  .col-1 
-                    .mb-3
-                      a.boton.BG09.me-3(href="https://www.nonstopbarcelona.com/  " target="_blank")
-                        span.text-white Ver  
-    
-          .row.BG011.p-3.justify-content-center.mb-4
+        .row.justify-content-center.mb-4
             .col-lg-10
-              p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
-              p.text-white.mb-2  Para conocer otras plataformas de <i>Crowdfunding</i> se anexa el documento a continuación:
-            .col-lg-2
-              a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/Crowfounding.pdf')" target="_blank" type="application/pdf")
-                span Descargar
-                i.fas.fa-file-download
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  .col-1
+                  img(src='@/assets/curso/tema3/img04.png')
+                .tarjeta.tarjeta--blanca
+                  .P-4.justify-content-center.mb-4
+                  h4 Binding The Gap BTG: 
+                  p Con sede en España, pero abierto a personas de todo el mundo, su premisa es preparar el proyecto para lanzarlo al mercado de la animación. <i>“Bridging The Gap”</i> es un taller intensivo en el que jóvenes profesionales y estudiantes con talento tienen la oportunidad de conocer y crear sinergias con profesionales influyentes y responsables en el trabajo de toma de decisiones en el ámbito de la animación. El enlace a su página está disponible a continuación: 
+                    .col-6
+                        a.boton.BG09.me-3(href="http://bthegap.com/es/inicio/ " target="_blank")
+                          span.text-white Ver   
+        .row.justify-content-center.mb-4
+            .col-lg-10
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  .col-1
+                  img(src='@/assets/curso/tema3/img04.png')
+                .tarjeta.tarjeta--blanca
+                  .P-4.justify-content-center.mb-4
+                  h4 NonStop:  
+                  p Se desarrolla en Barcelona, en él los jóvenes talentos pueden presentar sus <i>Elevator pitch</i> a productores, el premio para los que ganen, es un pase para El Festival Internacional de Cine de Animación Internacional por excelencia Annecy. Su enlace es:
+                    .col-10
+                        a.boton.BG09.me-3(href="https://www.nonstopbarcelona.com/  " target="_blank")
+                          span.text-white Ver  
+  
+        .row.BG011.p-3.justify-content-center.mb-4
+          .col-lg-10
+            p.text-white.mb-2 <strong> Ver anexo PDF: </strong>
+            p.text-white.mb-2  Para conocer otras plataformas de <i>Crowdfunding</i> se anexa el documento a continuación:
+          .col-lg-2
+            a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/Crowfounding.pdf')" target="_blank" type="application/pdf")
+              span Descargar
+              i.fas.fa-file-download
 
-     
-      #t_3_2.titulo-segundo.color-acento-contenido
-        h4 3.2 <i>Marketing</i> digital
-      p.mb-4 Se trata de una serie de acciones que se ponen en marcha para que una organización pueda alcanzar unos objetivos determinados. Estos objetivos se definen con anterioridad mediante un análisis de mercado y de la competencia. De esta forma se puede saber qué es lo que la empresa necesita y cómo obtener los mejores resultados.
-    .row.BG08.align-items-center.mb-2
-      .col-lg-9
-        p.mb-4 <strong>En la actualidad, hablar de estrategia digital es hablar de tecnología, ya que través de esta, el mundo empresarial ha encontrado cómo optimizar los procesos productivos, creando nuevos productos y reimaginando los procesos actuales. A medida que la tecnología digital avanza más y las empresas continúan en el camino de la transformación digital, la estrategia digital y la estrategia de negocios se fusionan como la misma cosa. Por lo anterior, a continuación, se destaca lo siguiente:</strong>
-      .col.lg-3
-        img(src="@/assets/curso/tema3/img07.png")
+    #t_3_2.titulo-segundo.color-acento-contenido
+      h4 3.2 <i>Marketing</i> digital
+    p.mb-4 Se trata de una serie de acciones que se ponen en marcha para que una organización pueda alcanzar unos objetivos determinados. Estos objetivos se definen con anterioridad mediante un análisis de mercado y de la competencia. De esta forma se puede saber qué es lo que la empresa necesita y cómo obtener los mejores resultados.
+      .row.BG08.align-items-center.mb-2
+        .col-lg-9
+          p.mb-4 <strong>En la actualidad, hablar de estrategia digital es hablar de tecnología, ya que través de esta, el mundo empresarial ha encontrado cómo optimizar los procesos productivos, creando nuevos productos y reimaginando los procesos actuales. A medida que la tecnología digital avanza más y las empresas continúan en el camino de la transformación digital, la estrategia digital y la estrategia de negocios se fusionan como la misma cosa. Por lo anterior, a continuación, se destaca lo siguiente:</strong>
+        .col.lg-3
+          img(src="@/assets/curso/tema3/img07.png")
    
-    <br>
-    <br>
-    <br>
+
     .tarjeta--container.row.mb-5.p-2
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4

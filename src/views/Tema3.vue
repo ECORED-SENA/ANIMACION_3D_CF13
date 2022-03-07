@@ -53,7 +53,7 @@
                   .p-4
                     h4 Proimágenes Colombia
                     p Formación a través de Festivales de Cine.      
-                          a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
+                          a.boton.BG09.me-3.mg4(href="https://www.proimagenescolombia.com// " target="_blank")
                             span.text-white Ver   
 
           .row.justify-content-center.mb-4
@@ -63,22 +63,22 @@
                   .col-1
                   img(src='@/assets/curso/tema3/img04.png')
                 .tarjeta.tarjeta--blanca
-                  .P-4
-                  h4 Proimágenes Colombia
-                  p Fondo para el Desarrollo Cinematográfico.
-                        a.boton.BG09.me-3(href="https://www.proimagenescolombia.com// " target="_blank")
+                  .p-4
+                    h4 Proimágenes Colombia
+                    p Fondo para el Desarrollo Cinematográfico.
+                        a.boton.BG09.me-3.mg4(href="https://www.proimagenescolombia.com// " target="_blank")
                           span.text-white Ver 
           .row.justify-content-center.mb-4
             .col-lg-10
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
                   .col-1
-                  img(src='@/assets/curso/tema3/img04.png')
+                  img.mg2(src='@/assets/curso/tema3/img05.png')
                 .tarjeta.tarjeta--blanca
                   .P-4
                   h4 Convocatoria FDC 
                   p Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
-                    .col-lg-6               
+                    .col-lg-12.mg3                           
                           a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
                               span.text-white Cortometrajes: 
                           a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
@@ -94,59 +94,59 @@
               i.fas.fa-file-download
                         
       .tarjeta.color-primario-botones--borde.p-4(numero="7" titulo="<i>Crowfunding</i>")
-        p Son plataformas de recolección de capital a través de donaciones <i>online</i> de manera colectiva para apoyar propuestas de diferentes índoles, en las cuales pueden participar proyectos audiovisuales. A continuación, se verán algunas:
+        p.mb-5 Son plataformas de recolección de capital a través de donaciones <i>online</i> de manera colectiva para apoyar propuestas de diferentes índoles, en las cuales pueden participar proyectos audiovisuales. A continuación, se verán algunas:
           .row.justify-content-center.mb-4
             .col-lg-10
-              .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img
                   .col-1
-                  img(src='@/assets/curso/tema3/img04.png')
+                  img.mg4(src='@/assets/curso/tema3/img06.png')
                 .tarjeta.tarjeta--blanca
                   .P-4.justify-content-center.mb-4
                   h4 PDE 2021 
                   p Consiste en un estímulo de 20 millones de pesos en 3 pagos para la generación de una pieza de animación en la cual el tema principal sea los oficios y los conocimientos tradicionales que se expresan en el centro de Bogotá. En el siguiente enlace encontrarás la convocatoria: 
                     .col-lg-6  
-                      a.boton.text-align-right.BG09.me-3(href="https://sicon.scrd.gov.co/convocatorias/714// " target="_blank")
+                      a.boton.text-align-right.BG09.me-3.mg1(href="https://sicon.scrd.gov.co/convocatorias/714// " target="_blank")
                         span.text-white Ver          
           .row.justify-content-center.mb-4
-             .col-lg-10
+            .col-lg-10
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
                   .col-1
-                  img(src='@/assets/curso/tema3/img04.png')
+                  img.mg4(src='@/assets/curso/tema3/img06.png')
                 .tarjeta.tarjeta--blanca
                   .P-4.justify-content-center.mb-4
                   h4 PIXELATL 
                   p Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. para 2021 tienen varias categorías, las cuales verás en el enlace:
                     .col-lg-6  
-                      a.boton.BG09.me-3(href="https://ideatoon.com/que-es// " target="_blank")
+                      a.boton.BG09.me-3.mg1(href="https://ideatoon.com/que-es// " target="_blank")
                         span.text-white Ver    
         .row.justify-content-center.mb-4
             .col-lg-10
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
                   .col-1
-                  img(src='@/assets/curso/tema3/img04.png')
+                  img.mg4(src='@/assets/curso/tema3/img06.png')
                 .tarjeta.tarjeta--blanca
                   .P-4.justify-content-center.mb-4
                   h4 Binding The Gap BTG: 
                   p Con sede en España, pero abierto a personas de todo el mundo, su premisa es preparar el proyecto para lanzarlo al mercado de la animación. <i>“Bridging The Gap”</i> es un taller intensivo en el que jóvenes profesionales y estudiantes con talento tienen la oportunidad de conocer y crear sinergias con profesionales influyentes y responsables en el trabajo de toma de decisiones en el ámbito de la animación. El enlace a su página está disponible a continuación: 
                     .col-6
-                        a.boton.BG09.me-3(href="http://bthegap.com/es/inicio/ " target="_blank")
+                        a.boton.BG09.me-3.mg1(href="http://bthegap.com/es/inicio/ " target="_blank")
                           span.text-white Ver   
         .row.justify-content-center.mb-4
-            .col-lg-10
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
+          .col-lg-10
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                .col-1
+                img.mg4(src='@/assets/curso/tema3/img06.png')
+              .tarjeta.tarjeta--blanca
+                .P-4.justify-content-center.mb-4
+                h4 NonStop:  
+                p Se desarrolla en Barcelona, en él los jóvenes talentos pueden presentar sus <i>Elevator pitch</i> a productores, el premio para los que ganen, es un pase para El Festival Internacional de Cine de Animación Internacional por excelencia Annecy. Su enlace es:
                   .col-1
-                  img(src='@/assets/curso/tema3/img04.png')
-                .tarjeta.tarjeta--blanca
-                  .P-4.justify-content-center.mb-4
-                  h4 NonStop:  
-                  p Se desarrolla en Barcelona, en él los jóvenes talentos pueden presentar sus <i>Elevator pitch</i> a productores, el premio para los que ganen, es un pase para El Festival Internacional de Cine de Animación Internacional por excelencia Annecy. Su enlace es:
-                    .col-10
-                        a.boton.BG09.me-3(href="https://www.nonstopbarcelona.com/  " target="_blank")
-                          span.text-white Ver  
+                      a.boton.BG09.me-3.mg1(href="https://www.nonstopbarcelona.com/  " target="_blank")
+                        span.text-white Ver  
   
         .row.BG011.p-3.justify-content-center.mb-4
           .col-lg-10
@@ -156,7 +156,7 @@
             a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/Crowfounding.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
-
+    separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h4 3.2 <i>Marketing</i> digital
     p.mb-4 Se trata de una serie de acciones que se ponen en marcha para que una organización pueda alcanzar unos objetivos determinados. Estos objetivos se definen con anterioridad mediante un análisis de mercado y de la competencia. De esta forma se puede saber qué es lo que la empresa necesita y cómo obtener los mejores resultados.

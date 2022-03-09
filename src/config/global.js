@@ -30,13 +30,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Relación de aspecto (Aspect ratio)',
-            hash: 'Relación de aspecto (Aspect ratio)',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Tipos de formato',
-            hash: 'Tipos de formato',
+            hash: 't_1_2',
           },
         ],
       },
@@ -197,7 +197,7 @@ export default {
     {
       texto: 'Alvaro Films. (2021). After Effects Demo Reel 2021.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=51XWb2npjfU',
+      descarga: 'https://www.youtube.com/watch?v=51XWb2npjfU ',
     },
   ],
   creditos: {

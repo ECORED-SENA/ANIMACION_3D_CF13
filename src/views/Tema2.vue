@@ -56,36 +56,30 @@
       .cajon.color-acento-botones.p-4.mb-5
         p En el caso de los concursos, se debe contar con la pieza o contenido con el que se quiere participar tal y como lo establezca la dirección del evento y en la mayoría de los casos y contar con registro de propiedad intelectual.   
    
-      .row.justify-content-center.mb-4
-        .col-lg-4
-          img(src="@/assets/curso/tema2/img04.png")
-        .col-lg-8
-          p.mb-4 <strong> Para Pedro Fuentes Rueda en Claves fundamentales para hacer un buen <i>pitching</i></strong>
-          p.mb-4 En el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el <i>PITCHING</i> como metodología para presentar los proyectos antes posibles financiadores. <i>PITCHING</i> quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.         
-          .BG04.p-2
-            h4.text-white.mb-0 Publicado en la web: https://www.unir.net/humanidades/revista/claves-fundamentales-para-hacer-un-buen-pitching-audiovisual/
+    .row.justify-content-center.p-5
+      .col-lg-4.justify-content-center.mb-4
+        img(src="@/assets/curso/tema2/img04.png")
+      .col-lg-8
+        p.mb-4 <strong> Para Pedro Fuentes Rueda en Claves fundamentales para hacer un buen <i>pitching</i></strong>
+        p.mb-4 En el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el <i>PITCHING</i> como metodología para presentar los proyectos antes posibles financiadores. <i>PITCHING</i> quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.         
+        .BG04.p-2
+          h4.text-white.mb-0 Publicado en la web: https://www.unir.net/humanidades/revista/claves-fundamentales-para-hacer-un-buen-pitching-audiovisual/
 
-    .row.BG06.align-items-center.mb-4 
-      .col-2
-      .col-lg-1
-        img(src="@/assets/curso/tema2/img13.png") 
-    .row
+    .row.BG012.align-items-center.mb-4 
       .col-2
        img(src="@/assets/curso/tema2/img05.png") 
-      .col-1 
+      .col-lg-1       
+        img(src="@/assets/curso/tema2/img13.png") 
       .col-lg-5
-        p.mb-0 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>Códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
+        p.mb-5 Un <i>pitching</i> puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un PowerPoint. Tras esto, llega un turno de preguntas por parte del público asistente. 
       .col-lg-4
-        img(src="@/assets/curso/tema2/img06.png")
-      .col-lg-8.mb-4
-        .row.align-items-center.BG03.p-3
-          .col-9
-            p Para saber más sobre <i>Pitching</i> audiovisual, puede visitar el siguiente video: <i>TINET RUBIRA</i> (2020). <i>Pitching</i>: cómo vender nuestro proyecto | Creación Audiovisual. 
-          .col-1
-            .mb-4              
-              a.boton.BG04.me-3(href="https://www.youtube.com/watch?v=fQPPpvuNzxk" target="_blank")
-                span.text-white Ver                     
-        
+        img.BG08(src="@/assets/curso/tema2/img06.png")
+      .col.BG03
+        .mb-4
+        p Para saber más sobre <i>Pitching</i> audiovisual, puede visitar el siguiente video: <i>TINET RUBIRA</i> (2020). <i>Pitching</i>: cómo vender nuestro proyecto | Creación Audiovisual.                
+          a.boton.BG04.me-3(href="https://www.youtube.com/watch?v=fQPPpvuNzxk" target="_blank")
+            span.text-white Ver                     
+    separador   
     #t_2_2.titulo-segundo.color-acento-contenido
       .h4 2.2 Convocatorias anuales para proyectos artísticos, culturales y festivales
     p.mb-4 A continuación, se podrá ver algunas convocatorias que generalmente se hacen anualmente en Colombia para proyectos artísticos, culturales y festivales:

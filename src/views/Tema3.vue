@@ -8,7 +8,7 @@
       h1 Plataformas de distribución
 
 
-    .row.BG08.align-items-center.mb-4
+    .row.BG08.p-4.align-items-center.mb-5
       .col-lg-6
         p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
       .col.lg-6
@@ -19,7 +19,7 @@
         figure.mb-5
           img(src="@/assets/curso/tema3/img02.png")
       .col-lg-8.mb-5.mb-md-0
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-primario.p-4
           p.text-small(numero="1" titulo="FILMIN") Lanzada en 2006 y relanzada en 2010 por empresas productoras españolas, posee películas independientes y series, como también cortos, en ella los usuarios registrados pueden subir sus producciones. mensualmente se otorga premio al mejor cortometraje elegido mediante votación. “Con relación al reparto de beneficios se puede hablar de 60-40 o del 50- 50; depende del <i>film</i>, del director, del distribuidor y del acuerdo”.<br><br> “Lo que está claro es que hoy se puede ganar más dinero en Filmin que con la venta de un DVD, en el caso de una película pequeña”. “En Filmin se obtienen beneficios desde la primera venta, en cambio en el mundo del DVD debes vender ciertas unidades para poder empezar a recuperar la inversión. Esto es muy positivo para el creador. Internet se está convirtiendo en una ventana más de explotación para poder recuperar la inversión.” (FILMIN, 2021). <br><br>Jaume Ripoll director editorial de FILMIN.
           p.text-small(numero="2" titulo="YouTube") Creado en 2006 se ha vuelto una de las plataformas más usadas para la distribución de videos, en ella cualquier usuario registrado puede subir y compartir videos, además que puede darle la opción de monetizarlo.
           p.text-small(numero="3" titulo="indyon.tv:") Es un medio de exhibición de cine independiente, <i>online</i>, colombiana, para productores audiovisuales, en una sección se pueden registrar títulos gratis, cabe destacar que a su vez cuenta con <i>crowdfunding</i>
@@ -43,46 +43,46 @@
         p Son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
       .tarjeta.color-primario-botones--borde.p-4(numero="6" titulo="Fondos cinematográficos")
         p Fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
-          .row.justify-content-center.mb-4      
-            .col-lg-10
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
-                  .col-1                  
-                  img(src='@/assets/curso/tema3/img03.png' alt='AvatarTop')
-                .tarjeta.tarjeta--blanca
-                  .p-4
-                    h4 Proimágenes Colombia
-                    p Formación a través de Festivales de Cine.      
-                          a.boton.BG09.me-3.mg4(href="https://www.proimagenescolombia.com// " target="_blank")
-                            span.text-white Ver   
-
-          .row.justify-content-center.mb-4
-            .col-lg-10
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
-                  .col-1
-                  img(src='@/assets/curso/tema3/img04.png')
-                .tarjeta.tarjeta--blanca
-                  .p-4
-                    h4 Proimágenes Colombia
-                    p Fondo para el Desarrollo Cinematográfico.
+        .row.justify-content-center.mb-4      
+          .col-lg-10
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                .col-1                  
+                img(src='@/assets/curso/tema3/img03.png' alt='AvatarTop')
+              .tarjeta.tarjeta--blanca
+                .p-4
+                  h4 Proimágenes Colombia
+                  p Formación a través de Festivales de Cine.      
                         a.boton.BG09.me-3.mg4(href="https://www.proimagenescolombia.com// " target="_blank")
-                          span.text-white Ver 
-          .row.justify-content-center.mb-4
-            .col-lg-10
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
-                  .col-1
-                  img.mg2(src='@/assets/curso/tema3/img05.png')
-                .tarjeta.tarjeta--blanca
-                  .P-4
-                  h4 Convocatoria FDC 
-                  p Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
-                    .col-lg-12.mg3                           
-                          a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
-                              span.text-white Cortometrajes: 
-                          a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
-                              span.text-white Largometrajes: 
+                          span.text-white Ver   
+
+        .row.justify-content-center.mb-4
+          .col-lg-10
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                .col-1
+                img(src='@/assets/curso/tema3/img04.png')
+              .tarjeta.tarjeta--blanca
+                .p-4
+                  h4 Proimágenes Colombia
+                  p Fondo para el Desarrollo Cinematográfico.
+                      a.boton.BG09.me-3.mg4(href="https://www.proimagenescolombia.com// " target="_blank")
+                        span.text-white Ver 
+        .row.justify-content-center.mb-4
+          .col-lg-10
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                .col-1
+                img.mg2(src='@/assets/curso/tema3/img05.png')
+              .tarjeta.tarjeta--blanca
+                .P-4
+                h4 Convocatoria FDC 
+                p Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
+                  .col-lg-12.mg3                           
+                        a.boton.BG09.me-3(href="https://convocatoriafdc.com/realizacion_corto_animacion// " target="_blank")
+                            span.text-white Cortometrajes: 
+                        a.boton.BG09.me-3(href="https://convocatoriafdc.com/desarrollo_largo_animacion// " target="_blank")
+                            span.text-white Largometrajes: 
 
         .row.BG011.p-3.justify-content-center.mb-4
           .col-lg-10
@@ -95,45 +95,45 @@
                         
       .tarjeta.color-primario-botones--borde.p-4(numero="7" titulo="<i>Crowfunding</i>")
         p.mb-5 Son plataformas de recolección de capital a través de donaciones <i>online</i> de manera colectiva para apoyar propuestas de diferentes índoles, en las cuales pueden participar proyectos audiovisuales. A continuación, se verán algunas:
-          .row.justify-content-center.mb-4
-            .col-lg-10
-              .tarjeta-avatar-b.mb-4
-                .tarjeta-avatar-b__img
-                  .col-1
-                  img.mg4(src='@/assets/curso/tema3/img06.png')
-                .tarjeta.tarjeta--blanca
-                  .P-4.justify-content-center.mb-4
-                  h4 PDE 2021 
-                  p Consiste en un estímulo de 20 millones de pesos en 3 pagos para la generación de una pieza de animación en la cual el tema principal sea los oficios y los conocimientos tradicionales que se expresan en el centro de Bogotá. En el siguiente enlace encontrarás la convocatoria: 
-                    .col-lg-6  
-                      a.boton.text-align-right.BG09.me-3.mg1(href="https://sicon.scrd.gov.co/convocatorias/714// " target="_blank")
-                        span.text-white Ver          
-          .row.justify-content-center.mb-4
-            .col-lg-10
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
-                  .col-1
-                  img.mg4(src='@/assets/curso/tema3/img06.png')
-                .tarjeta.tarjeta--blanca
-                  .P-4.justify-content-center.mb-4
-                  h4 PIXELATL 
-                  p Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. para 2021 tienen varias categorías, las cuales verás en el enlace:
-                    .col-lg-6  
-                      a.boton.BG09.me-3.mg1(href="https://ideatoon.com/que-es// " target="_blank")
-                        span.text-white Ver    
         .row.justify-content-center.mb-4
-            .col-lg-10
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
-                  .col-1
-                  img.mg4(src='@/assets/curso/tema3/img06.png')
-                .tarjeta.tarjeta--blanca
-                  .P-4.justify-content-center.mb-4
-                  h4 Binding The Gap BTG: 
-                  p Con sede en España, pero abierto a personas de todo el mundo, su premisa es preparar el proyecto para lanzarlo al mercado de la animación. <i>“Bridging The Gap”</i> es un taller intensivo en el que jóvenes profesionales y estudiantes con talento tienen la oportunidad de conocer y crear sinergias con profesionales influyentes y responsables en el trabajo de toma de decisiones en el ámbito de la animación. El enlace a su página está disponible a continuación: 
-                    .col-6
-                        a.boton.BG09.me-3.mg1(href="http://bthegap.com/es/inicio/ " target="_blank")
-                          span.text-white Ver   
+          .col-lg-10
+            .tarjeta-avatar-b.mb-4
+              .tarjeta-avatar-b__img
+                .col-1
+                img.mg4(src='@/assets/curso/tema3/img06.png')
+              .tarjeta.tarjeta--blanca
+                .P-4.justify-content-center.mb-4
+                h4 PDE 2021 
+                p Consiste en un estímulo de 20 millones de pesos en 3 pagos para la generación de una pieza de animación en la cual el tema principal sea los oficios y los conocimientos tradicionales que se expresan en el centro de Bogotá. En el siguiente enlace encontrarás la convocatoria: 
+                  .col-lg-6  
+                    a.boton.text-align-right.BG09.me-3.mg1(href="https://sicon.scrd.gov.co/convocatorias/714// " target="_blank")
+                      span.text-white Ver          
+        .row.justify-content-center.mb-4
+          .col-lg-10
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                .col-1
+                img.mg4(src='@/assets/curso/tema3/img06.png')
+              .tarjeta.tarjeta--blanca
+                .P-4.justify-content-center.mb-4
+                h4 PIXELATL 
+                p Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. para 2021 tienen varias categorías, las cuales verás en el enlace:
+                  .col-lg-6  
+                    a.boton.BG09.me-3.mg1(href="https://ideatoon.com/que-es// " target="_blank")
+                      span.text-white Ver    
+        .row.justify-content-center.mb-4
+          .col-lg-10
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                .col-1
+                img.mg4(src='@/assets/curso/tema3/img06.png')
+              .tarjeta.tarjeta--blanca
+                .P-4.justify-content-center.mb-4
+                h4 Binding The Gap BTG: 
+                p Con sede en España, pero abierto a personas de todo el mundo, su premisa es preparar el proyecto para lanzarlo al mercado de la animación. <i>“Bridging The Gap”</i> es un taller intensivo en el que jóvenes profesionales y estudiantes con talento tienen la oportunidad de conocer y crear sinergias con profesionales influyentes y responsables en el trabajo de toma de decisiones en el ámbito de la animación. El enlace a su página está disponible a continuación: 
+                  .col-6
+                      a.boton.BG09.me-3.mg1(href="http://bthegap.com/es/inicio/ " target="_blank")
+                        span.text-white Ver   
         .row.justify-content-center.mb-4
           .col-lg-10
             .tarjeta-avatar-b.mb-5
@@ -156,15 +156,18 @@
             a.boton.color-acento2.p-e.me-3(:href="obtenerLink('/downloads/Crowfounding.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
+    
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h4 3.2 <i>Marketing</i> digital
+    
     p.mb-4 Se trata de una serie de acciones que se ponen en marcha para que una organización pueda alcanzar unos objetivos determinados. Estos objetivos se definen con anterioridad mediante un análisis de mercado y de la competencia. De esta forma se puede saber qué es lo que la empresa necesita y cómo obtener los mejores resultados.
-      .row.BG08.align-items-center.mb-2
-        .col-lg-9
-          p.mb-4 <strong>En la actualidad, hablar de estrategia digital es hablar de tecnología, ya que través de esta, el mundo empresarial ha encontrado cómo optimizar los procesos productivos, creando nuevos productos y reimaginando los procesos actuales. A medida que la tecnología digital avanza más y las empresas continúan en el camino de la transformación digital, la estrategia digital y la estrategia de negocios se fusionan como la misma cosa. Por lo anterior, a continuación, se destaca lo siguiente:</strong>
-        .col.lg-3
-          img(src="@/assets/curso/tema3/img07.png")
+    
+    .row.BG08.align-items-center.mb-2.p-5
+      .col-lg-8
+        p.mb-4 <strong>En la actualidad, hablar de estrategia digital es hablar de tecnología, ya que través de esta, el mundo empresarial ha encontrado cómo optimizar los procesos productivos, creando nuevos productos y reimaginando los procesos actuales. A medida que la tecnología digital avanza más y las empresas continúan en el camino de la transformación digital, la estrategia digital y la estrategia de negocios se fusionan como la misma cosa. Por lo anterior, a continuación, se destaca lo siguiente:</strong>
+      .col.lg-4
+        img(src="@/assets/curso/tema3/img07.png")
    
 
     .tarjeta--container.row.mb-5.p-2
@@ -243,7 +246,7 @@
 
           <br>
             p Es así como el modelo publicitario <i>online</i> consiste en la inserción de campañas donde la segmentación y la interactividad se convierten en la base para tomar decisiones de cómo usar “el espacio publicitario virtual” de la mejor manera. 
-            .row.BG01.align-items-center.mb-4
+            .row.BG01.align-items-center.mb-4.p-5
               .col-lg-8
                 p.mb-4 <strong>Cobran por la ubicación, el tamaño del banner y la página donde está presente el elemento publicitario y sobre todo por la cantidad de veces que es visualizado y/o accedido. La popularidad y éxito de la publicidad y el <i>marketing</i> por internet se debe en su mayoría a que los costos de producción son mucho más bajos que en cualquier otro medio de comunicación, las ventajas y facilidades de producir este tipo de campañas puede reportar grandes y mejores respuestas de parte del consumidor pudiendo hacer inclusive mejoras inmediatas en la comunicación.</strong>
               .col.lg-6
@@ -322,9 +325,9 @@
                   p Se trata de estrategias que buscan la forma más efectiva de usar el email como medio para la captación de clientes y de conversión de ventas.
               .row
                 .col-md-7.mb-4.mb-md-0
-                  p <strong>Estrategias en redes sociales</strong>
+                  p <strong>Estrategia web</strong>
                   <br>
-                  p Se analizan las redes sociales más efectivas para el producto o servicio, así como el lenguaje y estilo de comunicación que se usará en la interacción con los seguidores, así como las formas de atender sus peticiones.
+                  p Un análisis sobre los elementos fundamentales que debe tener la página web, el cómo conseguir los objetivos marcados, con especial atención a la accesibilidad de la misma, la identidad, la navegación sencilla e intuitiva, el tipo de contenido y la usabilidad de la misma.
                 .col-md-5
                     img(src='@/assets/curso/tema3/24.svg', alt='Texto que describa la imagen')
 
@@ -332,28 +335,28 @@
                 .col-md-5
                     img(src='@/assets/curso/tema3/25.svg', alt='Texto que describa la imagen')
                 .col-md-7.mb-4.mb-md-0
-                  p <strong>Estrategia web</strong>
-                  <br>
-                  p Un análisis sobre los elementos fundamentales que debe tener la página web, el cómo conseguir los objetivos marcados, con especial atención a la accesibilidad de la misma, la identidad, la navegación sencilla e intuitiva, el tipo de contenido y la usabilidad de la misma.
-              .row
-                .col-md-7.mb-4.mb-md-0
-                  p <strong>Estrategias de inbound<i>marketing</i></strong>
+                  p <strong>Estrategias de <i>inbound marketing</i></strong>
                   <br>
                   p Atraer a potenciales clientes mediante contenidos digitales de calidad que ellos están consumiendo de manera voluntaria y a partir de aquí seguir “seduciendo” al lector para convertirlo de extraño a visitante regular de la web, de visitante de la web a “lead” (potencial cliente que nos ha dejado sus datos de contacto) de “lead” a cliente y de cliente a promotor o prescriptor de nuestra empresa a través de comentarios o acciones virtuales.
+              .row
+                .col-md-7.mb-4.mb-md-0
+                  p <strong>Estrategias de influencers</strong>
+                  <br>
+                  p La participación de personas que son influyentes en el mundo digital, como por ejemplo <i>bloggers, youtubers</i> especializados, son una forma de conseguir visibilidad. Se realiza un análisis de personas del campo deseado que permita crear estrategias de colaboración.
                 .col-md-5
                     img(src='@/assets/curso/tema3/26.svg', alt='Texto que describa la imagen')
               .row
                 .col-md-5
                     img(src='@/assets/curso/tema3/27.svg', alt='Texto que describa la imagen')
                 .col-md-7.mb-4.mb-md-0
-                  p <strong>Estrategias de influencers</strong>
-                  <br>
-                  p La participación de personas que son influyentes en el mundo digital, como por ejemplo bloggers, youtubers especializados, son una forma de conseguir visibilidad. Se realiza un análisis de personas del campo deseado que permita crear estrategias de colaboración.
-              .row
-                .col-md-7.mb-4.mb-md-0
                   p <strong>Seguimiento de la reputación <i>online</i></strong>
                   <br>
-                  p Se hace referencia a todo lo que pasa en el entorno global de Internet acerca de una marca, las acciones necesarias para conseguir mantener en el tiempo una reputación positiva en la red, dar respuesta de manera rápida y eficaz a posibles problemas o crisis de reputación y supervisar todas las interacciones alrededor de una marca para ser consciente de los problemas a los que se puede enfrentar. Es un análisis de cómo gestionar la reputación <i>online</i> y manejar situaciones de crisis.
+                  p Se hace referencia a todo lo que pasa en el entorno global de Internet acerca de una marca, las acciones necesarias para conseguir mantener en el tiempo una reputación positiva en la red, dar respuesta de manera rápida y eficaz a posibles problemas o crisis de reputación y supervisar todas las interacciones alrededor de una marca para ser consciente de los problemas a los que se puede enfrentar. Es un análisis de cómo gestionar la reputación online y manejar situaciones de crisis.
+              .row
+                .col-md-7.mb-4.mb-md-0
+                  p <strong>Calendario de creación de contenidos</strong>
+                  <br>
+                  p Es una hoja de ruta que nos permite conocer en cada momento y a lo largo del tiempo qué contenidos se deben crear y con qué finalidad.
                 .col-md-5
                     img(src='@/assets/curso/tema3/28.svg', alt='Texto que describa la imagen')
 
@@ -361,14 +364,14 @@
                 .col-md-5
                     img(src='@/assets/curso/tema3/29.svg', alt='Texto que describa la imagen')
                 .col-md-7.mb-4.mb-md-0
-                  p <strong>Calendario de creación de contenidos</strong>
-                  <br>
-                  p Es una hoja de ruta que nos permite conocer en cada momento y a lo largo del tiempo qué contenidos se deben crear y con qué finalidad.
-              .row
-                .col-md-7.mb-4.mb-md-0
-                  p <strong>Métodos de pago recomendados (en el caso de que se trate de un e-commerce)</strong>
+                  p <strong>Métodos de pago recomendados (en el caso de que se trate de un <i>e-commerce</i>)</strong>
                   <br>
                   p Dentro del mundo del emprendimiento en muchas ocasiones se deja para el final los métodos de pago, siendo estos hoy en día quizá una de las fórmulas más eficaces para rentabilizar ganancias. Existen diversas formas para ofrecer el pago de productos o servicios a través de la página web, en función del público objetivo y las características especiales de cada negocio, será más recomendable optar por unas u otras. Es por ello que se deberá realizar un análisis sobre la forma más conveniente de recibir pago de manera óptima y segura para ambas partes de la negociación.
+              .row
+                .col-md-7.mb-4.mb-md-0
+                  p <strong>Analítica y medición de resultados</strong>
+                  <br>
+                  p Realizando un listado de las herramientas de analítica para conocer la interacción de los usuarios con la aplicación y la página web, se conocerá el modo de ir mejorando aspectos de la misma.
                 .col-md-5
                     img(src='@/assets/curso/tema3/30.svg', alt='Texto que describa la imagen')
        

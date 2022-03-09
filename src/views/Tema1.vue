@@ -95,8 +95,7 @@
         figure.customfigure
           img(src='@/assets/curso/tema1/img_08.png').customimage
     
-    #MapaGroup01
-    .row.justify-content-center.align-items-center.p-4.mb-4
+    #MapaGroup01.row.justify-content-center.align-items-center.p-4.mb-4
       .col-lg-3.col-sm-4.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
           .row.justify-content-center.align-items-center
@@ -115,7 +114,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-12
               img.center.t(src='@/assets/curso/tema1/img18.svg')
-              h5.mt-3 Formatos para redes sociales
+              h5.mt-3 Formatos para <br> redes sociales
               
       .col-lg-12.position-relative
         .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
@@ -251,7 +250,7 @@ export default {
   name: '1FormatosYExportaciN',
   components: {},
   data: () => ({
-    // variables de vue
+    indicadorImagenZoom: true,
   }),
   mounted() {
     this.$nextTick(() => {

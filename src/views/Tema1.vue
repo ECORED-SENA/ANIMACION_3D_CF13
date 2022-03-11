@@ -7,29 +7,31 @@
         span 1
       h1 Formatos y exportación
 
-    .row.BG01.align-items-center.my-4
-      .col-lg-6.my-5.padding-left
-        p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
-      .col.lg-6
-        figure.customfigure
-          img(src="@/assets/curso/tema1/img01.png").customimage
-
+    .row.BG01.p-0.align-items-center
+      .col-lg-6.p-5
+        .row.p-5
+          p.mb-4 Los formatos de video son archivos de producción comprimidos y descomprimidos mediante un <i>códec</i>, todo lo cual se agrupa gracias a un contenedor. En estos se contienen metadatos, audios e información. Es decir, <i>códec</i> + contenedor = formato de video.
+      .col-lg-6
+        img(src="@/assets/curso/tema1/img01.png")
+    
+    separador
     #t_1_1.titulo-segundo.color-acento-contenido
-      .h4 1.1 Relación de aspecto (<i>Aspect ratio</i>) 
-
-    .row.mb-4
-      .col.lg-5
+      .h4.mt-4 1.1 Relación de aspecto (<i>Aspect ratio</i>) 
+    
+    .row.mt-4
+      .col-lg-5
         img(src="@/assets/curso/tema1/img_02.png")
       .col-lg-7
+        <br><br>
         p.mb-4 Es la relación entre el ancho y el alto de la imagen, donde X es el ancho y Y es el alto, por ejemplo 1:1 significa que tiene proporciones iguales, como 500 x 500 px (pixeles) o 1920 x 1920 px. Un video con una relación de 1920 x 1080 px tiene una relación de aspecto de 16:9, esto quiere decir que el alto es 1.77.1 veces más alto. A raíz de ello se ven formatos cuadrados y rectangulares. 
         .cajon.color-acento-botones.p-4
           p Generalmente se ven  dos relaciones la 4:3 (los que se manejaban en televisión antigua) que en cine se expresaría como 1,33:1 y la 16:9 que vendría siendo 1,77:1. Esta medida resulta de dividir el ancho (4) por el alto (3). Si se tiene una resolución de 1280 px, que sería el ancho, y se quiere con formato de 16:9 se divide 1080 (ancho) / 1.777 = dará 720. (alto) es decir 1080 x 720px. Si se hace lo mismo, pero se quiere con un aspecto ratio de 4:3 con una resolución de 1280 px (ancho) lo dividido por 1.333, y da 960 px, es decir 1280 x 720 px. 
 
-    .row.mb-4
+    .row.mt-4
       .col-lg-4.BG04.p-2
-        h4.text-white.mb-0 De igual forma existen otras como son:
+        h4.text-white.text.align-center De igual forma eisten otras como son:
 
-    .row.mb-5
+    .row.mt-4
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-primario
           p.text-small(numero="1" titulo="Relación Aspecto 1:1:") Significa que la altura y el ancho son iguales, lo cual crea un cuadrado visualmente, una de las resoluciones más comunes son 1080 x 1080, la típica imagen como foto de perfil de Instagram. También es muy común el uso de impresión fotográfica, pantallas de móviles, plataformas sociales, pero no se recomienda para televisión o formatos digitales  
@@ -39,8 +41,8 @@
           p.text-small(numero="5" titulo="Relación aspecto 21:9 (2.35:1):") Este es el formato más usado en cine, con una dimensión en píxeles de 2560 x 1080 px o 3440 x 1440 tienen un formato de tamaño mucho más apaisado que el de 16:9.
       .col-md-6.mb-5.mb-md-0
         img(src="@/assets/curso/tema1/img04.png")
-
-    p.mb-4 A continuación, en la figura 1 se puede observar una comparativa de relación de aspecto (<i>aspect ratio</i>) con una resolución de tamaño proporcional a 720 px. donde se logra apreciar que algunos formatos son cuadrados, rectangulares o muy apaisados: 
+        <br><br><br><br>
+    p.mb-5 A continuación, en la figura 1 se puede observar una comparativa de relación de aspecto (<i>aspect ratio</i>) con una resolución de tamaño proporcional a 720 px. donde se logra apreciar que algunos formatos son cuadrados, rectangulares o muy apaisados: 
    
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -91,6 +93,27 @@
     .row.align-items-center.BG05.p-3.mb-3     
       .col-md-6.mb-4.mb-md-0
         p Hay diversidad de formatos que se pueden utilizar para exportar e importar imágenes y videos, para que al reproducirlos dependiendo de la plataforma que se establezca para ello, se visualicen de manera óptima y correcta, entre ellos se va a encontrar los siguientes:
+        #MapaGroup01.row.justify-content-center.align-items-center
+          .col-lg-3.col-sm-4.mb-4
+            button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  img.center(src='@/assets/curso/tema1/img16.svg')
+                  h5.mt-3 Formatos de video
+
+          .col-lg-3.col-sm-4.mb-4
+            button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  img.center.t(src='@/assets/curso/tema1/img17.svg')
+                  h5.mt-3 Formatos de imagen
+          .col-lg-3.col-sm-4.mb-4
+            button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  img.center.t(src='@/assets/curso/tema1/img18.svg')
+                  h5.mt-3 Formatos para <br> redes sociales
+
       .col-md-6
         figure.customfigure
           img(src='@/assets/curso/tema1/img_08.png').customimage
@@ -138,11 +161,12 @@
                 p.text-small(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de <i>bits</i> tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
       
         .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
-          .row.justify-content-center.mb-4
-            .col-lg-8.p-2
-              .row.mb-4
-                .col-lg-4.BG04.p-2
-                  h4.text-white.mb-0 Formatos de imagen: 
+          .row.mb-4
+            .col-lg-8
+              .row
+                .col-6
+                  .BG04.p-2.mb-4
+                    h4.text-white.mb-0 Formatos de imagen: 
               p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de <i>bits (bitmaps)</i> o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.  
               .cajon.color-acento-botones.p-4
                 h3 Existen diferentes formatos en los cuales se pueden almacenar datos de imagen: 

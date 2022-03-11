@@ -13,11 +13,13 @@
       )
       .bloque-texto-g__texto.p-5
         p.mb-4 A continuación, se podrán observar las plataformas de distribución, festivales de animación y cine, así como también varias maneras de gestionar medios de financiación para nuestros proyectos. Para ello hay ciertas pautas y requerimientos que dependiendo de las plataformas serán más o menos iguales, hay que tener en cuenta en cada uno los requisitos solicitados a la hora de aplicar para ellos. 
+    
     separador 
     #t_2_1.titulo-segundo.color-acento-contenido
       .h4 2.1 Proyectos para convocatorias y concursos
+
     p.mb-4 A raíz de la implementación de la Ley 1834 de 2017 con la que se fomenta la economía creativa y se regula la Ley Naranja, el país ha abierto espacios significativos para el desarrollo de las industrias culturales y creativas. A continuación, se verá una explicación al respecto:
-      img(src="@/assets/curso/tema2/img03.svg")
+    img(src="@/assets/curso/tema2/img03.svg")
 
     .row.justify-content-center.align-items-center.p-4.my-0
       .col-lg-3.col-sm-4.mb-0
@@ -66,22 +68,33 @@
           h4.text-white.mb-0 Publicado en la web: https://www.unir.net/humanidades/revista/claves-fundamentales-para-hacer-un-buen-pitching-audiovisual/
 
     .row.BG012.align-items-center.mb-4 
-      .col-2
-       img(src="@/assets/curso/tema2/img05.png") 
-      .col-lg-1       
-        img(src="@/assets/curso/tema2/img13.png") 
-      .col-lg-5
-        p.mb-5 Un <i>pitching</i> puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un PowerPoint. Tras esto, llega un turno de preguntas por parte del público asistente. 
+      
+      .col-lg-8
+        .row
+          .col-lg-2.ssa
+            <br><br>
+            img(src="@/assets/curso/tema2/img05.png") 
+          .col-lg-1
+            <br>       
+            img(src="@/assets/curso/tema2/img13.png") 
+          .col-lg-9
+            <br><br>
+            p.mb-5 Un <i>pitching</i> puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un PowerPoint. Tras esto, llega un turno de preguntas por parte del público asistente. 
+        .mb-4.BG03
+          .row.align-items-center.BG03.p-3
+            .col
+              p Para saber más sobre <i>Pitching</i> audiovisual, puede visitar el siguiente video: <i>TINET RUBIRA</i> (2020). <i>Pitching</i>: cómo vender nuestro proyecto | Creación Audiovisual. 
+            .col-auto                
+              a.boton.BG04.me-3(href="https://www.youtube.com/watch?v=fQPPpvuNzxk" target="_blank").mb-0
+                span.text-white Ver
+                  i.fa.fa-link.ms-2
       .col-lg-4
         img.BG08(src="@/assets/curso/tema2/img06.png")
-      .col.BG03
-        .mb-4
-        p Para saber más sobre <i>Pitching</i> audiovisual, puede visitar el siguiente video: <i>TINET RUBIRA</i> (2020). <i>Pitching</i>: cómo vender nuestro proyecto | Creación Audiovisual.                
-          a.boton.BG04.me-3(href="https://www.youtube.com/watch?v=fQPPpvuNzxk" target="_blank")
-            span.text-white Ver                     
+                     
     separador   
     #t_2_2.titulo-segundo.color-acento-contenido
       .h4 2.2 Convocatorias anuales para proyectos artísticos, culturales y festivales
+
     p.mb-4 A continuación, se podrá ver algunas convocatorias que generalmente se hacen anualmente en Colombia para proyectos artísticos, culturales y festivales:
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-9   
@@ -109,21 +122,20 @@
               p.text-dark Festivales de emprendimiento: Héroe <i class = "text-dark">Fest e InspiraTIC</i>
 
       .row.align-items-center.BG03.p-3
-              .col-10
-                p Para conocer en detalle las convocatorias y otras ayudas para la financiación de proyectos, puede visitar la siguiente página web: 
-              .col-2
-                .mb-3              
-                  a.boton.BG04.me-3(href="https://economianaranja.gov.co/convocatorias/" target="_blank")
-                    span.text-white Ver  
+        .col
+          p.mb-0 Para conocer en detalle las convocatorias y otras ayudas para la financiación de proyectos, puede visitar la siguiente página web: 
+        .col-auto            
+          a.boton.BG04.me-3(href="https://economianaranja.gov.co/convocatorias/" target="_blank").mb-0
+            span.mb-0.text-white Ver
+              i.fa.fa-link.ms-2
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
       .h4 2.3 Convocatorias para proyectos audiovisuales
 
     .row.mb-4
-      .col.lg-5
+      .col-lg-5
         img(src="@/assets/curso/tema2/img09.png")
-      
       .col-lg-7
         .row.mb-4
         ul.lista-ul--color
@@ -178,13 +190,15 @@
           li 
             <i class="fas fa-caret-right fa-lg"></i>
             | Festival de Cine e Infancia y Adolescencia.
-      .row.align-items-center.BG03.p-3
-        .col-11
+      .row.align-items-center.BG03.p-3.mt-4
+        .col
           p Para conocer en detalle el total de festivales y muestras de cine colombiano que se realizan en el país, puede visitar el siguiente enlace: 
-        .col-1
-          a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx/" target="_blank")
+        .col-auto
+          a.boton.BG04.me-3(href="https://mincultura.gov.co/areas/cinematografia/Paginas/Festivales.aspx/" target="_blank").mb-0
             span.text-white.mb-2 Ver 
-        
+              i.fa.fa-link.ms-2
+
+    <br>   
     .cajon.color-acento-botones.p-4
       p El proyecto de animación puede ser presentado en diversos eventos dedicados al mundo del entretenimiento digital, para ello debes tenerlo preparado; es decir, haber hecho todo el proceso de pipeline y demás, y así poder participar de dichos eventos.
 

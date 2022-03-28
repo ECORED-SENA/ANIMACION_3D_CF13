@@ -1,1 +1,1 @@
-module.exports = 'Entrega final e industria.'
+module.exports = 'Entrega final e industria'

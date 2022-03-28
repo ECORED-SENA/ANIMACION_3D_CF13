@@ -1,40 +1,334 @@
-.BGIMG01
-  background-image: url("../assets/curso/intro/img01.png")
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: center
+html 
+  scroll-padding-top: 10rem !important
 
+///// Custom img size
+.img65 
+  width: 65px
+.img90
+  width: 90px
+.img125
+  width: 125px !important
+.img350
+  width: 350px
+.img400
+  width: 400px
+.img450
+  max-width: 450px
+.img500
+  max-width: 500px
+.img680
+  max-width: 680px
+
+//// Custom TXT /////
+
+.hr--line
+  width: 100%
+  height: 3px
+  margin: 2rem 0
+  background-color: #AFAFAF
+
+.round--number  
+  position: relative
+  display: inline-block
+  padding: 1rem 1.5rem 
+  margin-bottom: 1rem  
+  left: 50%
+  transform: translateX(-50%)
+  background-color: #12263F
+  border-radius: 999px  
+  h2 
+    color: white !important
+  
+/////// custom Bg ////////
+.linkcard
+  display: block
+  width: 100%
+  height: 100%
+  padding: 1rem  
+  background-color: white
+  -webkit-box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.4);
+  box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.4)
+  border-radius: 15px
+  &:hover
+    .round--number
+      background-color: #ADDBD5
+      h2 
+        color: $color-sistema-texto !important
+
+/////////// Tarjetas
+
+.info_Card
+  background-color: #F7F7F7
+  border-bottom-left-radius: 15px
+  border-bottom-right-radius: 15px
+  box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.4)
+  &--title
+    background-color: #282828
+    padding: 0.75rem 1rem
+    h4      
+      text-align: center !important
+      color: white
+  &--body
+    padding: 1rem    
+    p 
+      margin-bottom: 0 !important
+
+.crd-submenu
+  padding: 2rem
+  height: 100%
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+  background-color: white
+  border-bottom: 4px solid #4A494A
+  box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.3)
+  transition: all 0.5s ease-out;
+  &:hover
+    background-color: #ebebeb
+
+
+.crd
+  padding: 2rem
+  &.crd--grd01
+    background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(239,223,201,0.5) 50%, rgba(232,237,217,0.5) 100%)
+  &.crd--red
+    background: linear-gradient(-90deg, rgba(228,199,161,1) 0%, rgba(212,79,74,1) 50%, rgba(189,60,55,1) 100%)
+    border-radius: 15px
+
+
+.crd--white
+  background-color: white
+.crd--shadow
+  -webkit-box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.4);
+  box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.4)
+.crd--round
+  border-radius: 25px
+
+.mg_neg--top
+  margin-top: -2rem
+
+.hg-100
+  height: 100%
+
+/////////// Boton
+
+.boton
+  &.btn--negro
+    background-color: #12263F !important
+
+/////////// Infografía interactiva
+.img-infografica__item, .img-infografica-b__item 
+  width: 4.5%
+
+///////// Quote
+
+.custom_quote 
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: -2rem
+    left: -2rem
+    width: 53px
+    height: 58px
+    background-image: url("../assets/curso/quote.svg")
+
+////////// Horizontal Avatar crds
+
+.crd_avatar--hr
+  position: relative
+  padding: 1rem
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    width: calc( 100% - 45px )
+    height: 100%
+    background-color: white
+    border-radius: 15px
+  @media (max-width: 990px)
+    &::before
+      width: 100%
+
+
+//////////// Fondos
+
+.bg_gray
+  position: relative
+  padding: 2rem 0
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: 100%
+    margin: 0    
+    background-color: #F6F6F6
+
+
+.gradient-bg_01 
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: 100%
+    margin: 0
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,226,207,1) 50%, rgba(255,255,255,1) 100%)
+
+.gradient-bg_02
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: 70%
+    margin: 0  
+    background: linear-gradient(90deg, rgba(232,237,217,1) 0%, rgba(239,223,201,1) 50%, rgba(255,255,255,1) 100%)
+
+.gradient-bg_03
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: 100%
+    margin: 0  
+    background: linear-gradient(180deg, rgba(255,255,255,0.75) 0%, rgba(239,223,201,0.75) 50%, rgba(255,255,255,0.75) 100%)
+
+.gradient-bg_green
+  position: relative
+  padding-top: 2rem  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute 
+    top: 0   
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 1rem )
+    margin: 0  
+    background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(173,219,213,1) 50%, rgba(232,235,234,1) 100%)
+
+.gradient-bg_coffee
+  position: relative
+  padding-top: 2rem  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute 
+    top: 0   
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 1rem )
+    margin: 0  
+    background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 50%, rgba(232,237,217,1) 100%)
+
+.gradient-bg_coffee_02
+  position: relative
+  padding-top: 2rem  
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute 
+    top: 50%   
+    left: -3rem
+    transform: translateY(-50%)
+    width: calc( 100% + 6rem)
+    height: 70%
+    margin: 0  
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 50%, rgba(232,237,217,1) 100%)
+  @media (max-width: 990px)
+    padding-bottom: 2rem
+    &::before
+      top: -50%
+      transform: translateY(50%)
+      height: 100%
+
+
+.gradient-bg_gris
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem)
+    height: 100%
+    margin: 0  
+    background: linear-gradient(180deg, rgba(255,255,255,0.75) 0%, rgba(175,175,175,0.25) 50%, rgba(255,255,255,0.75) 100%)
+    
+
+.bg_C01 
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: -3rem
+    width: 100%
+    height: 100%
+    margin: 0 
+    background-image: url("../assets/curso/bg_c1.png")
+    background-repeat: no-repeat
+    background-position: center center
+
+.bg_C02
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: -2rem
+    left: 0    
+    margin: -3rem
+    width: calc( 100% + 6rem )
+    height: 100%
+    background-image: url("../assets/curso/bg_c2.png")
+    background-repeat: no-repeat
+    background-position: center center
+
+////// Custom linea de tiempo D /////////
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number    
+  color: white
+
+
+///// Custom Slyder F
+.horizontal-scroll
+  align-items: stretch !important
+
+.horizontal-scroll__wrapper
+  padding: 1rem 0
+
+
+//////////////////  
 .bloque-texto-d.color-secundario:before 
   background-color: #D8E5E0
-
-.BG01
-  background: linear-gradient(to right,#B0DCD6, #fff)
-
-.BG02
-  background: linear-gradient(to  top,#ADDBD5, #fff)
-  border-radius: 25px
-
-.BG03
-  background: linear-gradient(to  bottom,#EEEEEE, #B0B0B0)
-  border-radius: 25px
-
-.BG04
-  background-color: #000
-
-.BG05
-  background: linear-gradient(to right, #E8EBD7, #fff)
-
-.BG06
-  background-color: #fff
-
-.BG07
-  background-color: #6BBCB1
-
-.BG08
-  background-color: #E6DED3
-
-.BG09
-  background-color:#D44F4A
 
 .buttom.color-primario
   background-color: #fff
@@ -52,11 +346,6 @@
 .t
   width: auto
   height: auto 
-.BGIMG01
-  background-image: url("../assets/curso/intro/img01.png")
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: center
 
 .bloque-texto-d.color-secundario:before 
   background-color: #D8E5E0
@@ -69,11 +358,13 @@
   border-radius: 25px
 
 .BG03
-  background: linear-gradient(to  bottom,#EEEEEE, #B0B0B0)
-  border-radius: 25px
+  background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(175,175,175,1) 100%)
+  border-radius: 10px
 
 .BG04
-  background-color: #000
+  display: inline-block
+  padding: 0.75rem 1.5rem
+  background-color: #12263F
 
 .BG05
   background: linear-gradient(to right, #E8EBD7, #fff)
@@ -120,12 +411,13 @@
   background-color:#F8F1E7  
 
 .tarjeta-1
-  border-radius: 20px
-  margin-left: 2px
-  margin-right: 2px
-  box-shadow: 1px 1px 1px 1px #E4E4E4
-  border-left: 1px solid #E4E4E4 
-  border-top: 1px solid #E4E4E4
+  height: 100%
+  margin: 0 0.35rem
+  border-radius: 20px 
+  background-color: white
+  -webkit-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.12)
+  box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.12)   
+  
 
 .padding-left
   padding-left: 50px  

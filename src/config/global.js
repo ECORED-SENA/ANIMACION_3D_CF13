@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Relación de aspecto (Aspect ratio)',
+            titulo: 'Relación de aspecto (<em>Aspect ratio</em>)',
             hash: 't_1_1',
           },
           {
@@ -94,7 +94,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Demo Reel',
+        titulo: '<em>Demo Reel</em>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -195,7 +195,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=c4f3cM4T0Pk&t=1s',
     },
     {
-      texto: 'Alvaro Films. (2021). After Effects Demo Reel 2021.',
+      texto: 'Alvaro Films. (2021). <em>After Effects Demo Reel 2021</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/51XWb2npjfU',
     },

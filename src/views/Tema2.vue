@@ -56,7 +56,7 @@
           h3.mb-4 <strong> Para Pedro Fuentes Rueda en Claves fundamentales para hacer un buen <i>pitching</i></strong>
           p.mb-4 En el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el <i>PITCHING</i> como metodología para presentar los proyectos antes posibles financiadores. <i>PITCHING</i> quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.         
           .BG04.p-2
-            p.text-white.mb-0 Publicado en la web: https://www.unir.net/humanidades/revista/claves-fundamentales-para-hacer-un-buen-pitching-audiovisual/
+            p.text-white.mb-0 Publicado en la #[i web]: https://www.unir.net/humanidades/revista/claves-fundamentales-para-hacer-un-buen-pitching-audiovisual/
 
     
     .bg_gray
@@ -67,7 +67,7 @@
               .col-lg-3.d-none.d-lg-flex(data-aos="flip-right")            
                 img(src="@/assets/curso/tema2/img05.png").img125           
               .col-lg-9.custom_quote.ps-5              
-                p Un <i>pitching</i> puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un PowerPoint. Tras esto, llega un turno de preguntas por parte del público asistente. 
+                p Un <i>pitching</i> puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un PowerPoint. Tras esto, llega un turno de preguntas por parte del público. 
           
           .row.align-items-center.mx-3.mg_neg--top
             .col-lg-12
@@ -104,7 +104,7 @@
             .tarjeta.color-acento-botones.p-3(x="30.6%" y="30.3%" numero="4")
               p.text-dark.mb-0 Convocatoria Jóvenes en Movimiento
             .tarjeta.color-acento-botones.p-3(x="41%" y="43.5%" numero="5")
-              p.text-dark.mb-0 Convocatoria Laboratorio Startup de APPS.CO 
+              p.text-dark.mb-0 Convocatoria Laboratorio #[i Startup] de APPS.CO 
             .tarjeta.color-acento-botones.p-3(x="60.8%" y="36.2%" numero="6")
               p.text-dark.mb-0 Semilleros de Emprendimiento Digital de Apps.co
             .tarjeta.color-acento-botones.p-3(x="57.1%" y="57.7%" numero="7")
@@ -116,7 +116,7 @@
 
       .row.align-items-center.BG03.p-3
         .col
-          p.mb-0 Para conocer en detalle las convocatorias y otras ayudas para la financiación de proyectos, puede visitar la siguiente página web: 
+          p.mb-0 Para conocer en detalle las convocatorias y otras ayudas para la financiación de proyectos, puede visitar la siguiente página #[i web]: 
         .col-auto            
           a.boton.BG04.me-3(href="https://economianaranja.gov.co/convocatorias/" target="_blank").mb-0
             span.mb-0.text-white Ver

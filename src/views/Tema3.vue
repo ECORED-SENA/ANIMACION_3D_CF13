@@ -43,7 +43,7 @@
             p.mb-0 Es la primera fuente en la que se piensa y por lo general se adecúa muy bien a las necesidades de pequeñas y medianas empresas, aunque no es la idónea para las compañías creativas en su fase inicial, pues sus productos crediticios no siempre responden a las características propias del sector.
 
           .tarjeta.color-primario-botones--borde.p-2(numero="2" titulo="Fondos de inversión")            
-            p.mb-0 Estos fondos de capital privado son los que más están enfocados en los startups del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. Asobancaria los define como herramientas que administran recursos de personas interesadas en invertir en compañías con potencial de crecimiento y que no cotizan en bolsa de valores.
+            p.mb-0 Estos fondos de capital privado son los que más están enfocados en los #[i startups] del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. Asobancaria los define como herramientas que administran recursos de personas interesadas en invertir en compañías con potencial de crecimiento y que no cotizan en bolsa de valores.
 
           .tarjeta.color-primario-botones--borde.p-2(numero="3" titulo="Ángeles Inversionistas")            
             p.mb-0 Son personas naturales, grupos o empresarios que invierten en negocios, generalmente de emprendimientos, de los que esperan obtener un retorno mayor al que se da en inversiones tradicionales. En este tipo de proyectos, el riesgo es inferior al que enfrenta una empresa nueva, en especial en los primeros tres años de haber sido creada. A cambio de su inversión, se ven a menudo muy involucrados en el negocio.
@@ -52,10 +52,10 @@
             p.mb-0 Es una fuente de financiación que cada vez tiene más aceptación en el sector creativo. Se basa en la donación de pequeñas cantidades a cambio de recompensas o ventajas. Este formato permite que la organización tenga el control del proyecto y saber de primera mano los intereses de sus donantes. Con la Bolsa de Valores de Colombia (BVC) fue desarrollada una plataforma de <i>crowdfunding</i> para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
 
           .tarjeta.color-primario-botones--borde.p-2(numero="5" titulo="Aceleradoras e Incubadoras de Empresas")            
-            p.mb-0 Son organizaciones que buscan startups con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
+            p.mb-0 Son organizaciones que buscan #[i startups] con potencial para salir al mercado. Para ello cuentan con expertos y profesionales que trabajan para desarrollar los proyectos hasta que estén listos para saltar al mercado. Las aceleradoras se dedican a agilizar un proyecto que está ya en marcha o en desarrollo. El objetivo al final es obtener beneficios reales cuando la empresa esté lista para surgir.
 
           .tarjeta.color-primario-botones--borde.p-2(numero="6" titulo="Fondos cinematográficos")            
-            p Fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y web. A continuación, se relacionan las páginas para visitar algunos de ellos:
+            p Fondos cinematográficos que están disponibles para apoyar este tipo de eventos, financiando así todo lo que tiene que ver con producción audiovisual, desde la preproducción hasta la postproducción, puede ser cortometrajes, tv, cine y #[i web]. A continuación, se relacionan las páginas para visitar algunos de ellos:
 
             .crd_avatar--hr.mb-4
               .row.align-items-center
@@ -90,7 +90,7 @@
                     img(src="@/assets/curso/tema3/icon_03.svg").img90.m-auto
                 .col
                   h4 Convocatoria FDC 
-                  p.mb-4 Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
+                  p.mb-4 Es el fondo creado, para apoyar el desarrollo del cine, más conocido como Ley de cine, su recaudación se da con un porcentaje de cada boleta que es pagada en cine, dichos recursos se van al fondo que es de carácter público, que finalmente mediante el consejo nacional de las artes y la cultura, dirigen, administran y ejecutan los recursos obtenidos. Para el sector de la animación se destinan 210 millones de pesos para cortometrajes de 7 a 14 minutos, para largometrajes se destinan 340 millones de pesos, las bases de ambos concursos se pueden detallar en los enlaces a continuación:
                   .row.justify-content-end
                     .col-auto.mb-2
                       a.boton.BG09(href="https://convocatoriafdc.com/realizacion_corto_animacion" target="_blank").mb-0
@@ -139,7 +139,7 @@
                     img(src="@/assets/curso/tema3/icon_04.svg").img90.m-auto
                 .col
                   h4 PIXELATL 
-                  p.mb-4 Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. para 2021 tienen varias categorías, las cuales verás en el enlace:
+                  p.mb-4 Este evento toma como premisa el mercado iberoamericano, en el cual profesionales renombrados, de gran nivel pueden estar cerca de proyectos de jóvenes principiantes, entre los cuales cabe mencionar a Netflix, Amazon; Discovery Kids, Cartoon Network y Disney. Pixelatl, ha creado IDEATOON, con el cual buscan impulsar el desarrollo de ideas audiovisuales en las que se hace referencia a todo lo que es producción animada. Para 2021 tienen varias categorías, las cuales verás en el enlace:
                   .row.justify-content-end  
                     .col-auto
                       a.boton.BG09.me-3.mg4(href="https://ideatoon.com/que-es//" target="_blank").mb-0
@@ -228,7 +228,7 @@
                 img(src='@/assets/curso/tema3/img10.png', alt='Texto que describa la imagen').img90.m-auto
             
           h2.text-center Redes sociales
-          p Las redes sociales como Tiktok, Kwait, Facebook, Twitter, LinkedIn, Instagram son una nueva forma de llegar al cliente, ya que muchas veces las personas piensan que estos son los principales medios para poder comercializar un producto o servicio, pero también es necesario contar con un Sitio Web y el apoyo de E-mail <i>Marketing</i>.
+          p Las redes sociales como Tiktok, Kwait, Facebook, Twitter, LinkedIn, Instagram son una nueva forma de llegar al cliente, ya que muchas veces las personas piensan que estos son los principales medios para poder comercializar un producto o servicio, pero también es necesario contar con un Sitio #[i web] y el apoyo de #[i E-mail] <i>Marketing</i>.
     
     p Aspectos a tener en cuenta:
 
@@ -270,22 +270,22 @@
       .col-lg-4(data-aos="flip-left")
         img(src="@/assets/curso/tema3/15.png").img450
       .col-lg-8
-        p.mb-4 El 2021 ha representado para el <i>marketing</i> y la publicidad en la web, un año de crecimiento y expansión exacerbada. Pese a que en los últimos años esta gran tendencia venía creciendo a pasos de gigante, el 2021 demostró que, de aquí en adelante, la comercialización de productos y servicios pasa y se reafirma, sin lugar a dudas en Internet.
+        p.mb-4 El 2021 ha representado para el <i>marketing</i> y la publicidad en la #[i web], un año de crecimiento y expansión exacerbada. Pese a que en los últimos años esta gran tendencia venía creciendo a pasos de gigante, el 2021 demostró que, de aquí en adelante, la comercialización de productos y servicios pasa y se reafirma, sin lugar a dudas en Internet.
         .cajon.color-acento-botones.p-4
-          p.mb-0 Actualmente, la comunicación digital por la web ha alcanzado niveles nunca antes vistos de audiencia, a tal punto que la publicidad y el <i>marketing</i> constituyen 86% del contenido en el ciberespacio, según estudios de la empresa Multiplica (Consultora de estrategia y <i>marketing</i> digital) convirtiéndose en el eje central de modelos de negocios y viceversa. Esto es, que gracias a la publicidad y el <i>marketing</i> subsiste la web.
+          p.mb-0 Actualmente, la comunicación digital por la #[i web] ha alcanzado niveles nunca antes vistos de audiencia, a tal punto que la publicidad y el <i>marketing</i> constituyen 86% del contenido en el ciberespacio, según estudios de la empresa Multiplica (Consultora de estrategia y <i>marketing</i> digital) convirtiéndose en el eje central de modelos de negocios y viceversa. Esto es, que gracias a la publicidad y el <i>marketing</i> subsiste la #[i web].
           
     p Es así como el modelo publicitario <i>online</i> consiste en la inserción de campañas donde la segmentación y la interactividad se convierten en la base para tomar decisiones de cómo usar “el espacio publicitario virtual” de la mejor manera. 
 
     .gradient-bg_green.mb-5
       .row.align-items-center
         .col-lg-8
-          p.mb-4 <strong>Cobran por la ubicación, el tamaño del banner y la página donde está presente el elemento publicitario y sobre todo por la cantidad de veces que es visualizado y/o accedido. La popularidad y éxito de la publicidad y el <i>marketing</i> por internet se debe en su mayoría a que los costos de producción son mucho más bajos que en cualquier otro medio de comunicación, las ventajas y facilidades de producir este tipo de campañas puede reportar grandes y mejores respuestas de parte del consumidor pudiendo hacer inclusive mejoras inmediatas en la comunicación.</strong>
+          p.mb-4 <strong>Cobran por la ubicación, el tamaño del #[i banner] y la página donde está presente el elemento publicitario y sobre todo por la cantidad de veces que es visualizado y/o accedido. La popularidad y éxito de la publicidad y el <i>marketing</i> por internet se debe en su mayoría a que los costos de producción son mucho más bajos que en cualquier otro medio de comunicación, las ventajas y facilidades de producir este tipo de campañas puede reportar grandes y mejores respuestas de parte del consumidor pudiendo hacer inclusive mejoras inmediatas en la comunicación.</strong>
         .col-lg-4(data-aos="flip-right")
           img(src="@/assets/curso/tema3/16.png").img350.m-auto
 
-    p En el pasado la televisión era quizá el medio más efectivo para dar a conocer un producto y/o servicio, ahora con el internet  se cuenta con diversidad de recursos como pueden ser los blogs, enlaces, links, etc., logrando que la información sea más completa e interactiva con los usuarios.
+    p En el pasado la televisión era quizá el medio más efectivo para dar a conocer un producto y/o servicio, ahora con el internet  se cuenta con diversidad de recursos como pueden ser los #[i blogs], enlaces, etc., logrando que la información sea más completa e interactiva con los usuarios.
     .cajon.color-acento-botones.p-4
-      p Las páginas web se ubican en los buscadores de la web y solo con un clic se tiene acceso total a un universo de información. 
+      p Las páginas #[i web] se ubican en los buscadores de la #[i web] y solo con un clic se tiene acceso total a un universo de información. 
 
     .hr--line
     .BG04.mb-4
@@ -308,10 +308,10 @@
         LineaTiempoD.color-primario
           p(numero="1" titulo="Análisis de situación").mb-0 Antes de comenzar con las estrategias de cada uno de los canales digitales que se van a utilizar para promocionar un proyecto, se debe hacer estudio a profundidad del contexto actual, la situación externa de la economía y del sector, como de la situación al interior de la empresa de nuestro cliente, contando con la mayor información posible para poder hacer un análisis completo y tomar las mejores decisiones dentro de la estrategia digital.
           p(numero="2" titulo="Análisis de contexto actual").mb-0 Un análisis de la situación económica y social actual en el ámbito geográfico en el que se desean ofrecer los productos o servicios de la empresa.
-          p(numero="3" titulo="Análisis del público objetivo").mb-0 Análisis exhaustivo de cuál es el target más interesado en el producto o servicio con el fin de enfocar las estrategias de <i>marketing</i> futuras de este sector.
-          p(numero="4" titulo="Análisis de la competencia").mb-0 Es un análisis de todas las empresas o personas que hacen ruido en la web, posicionándose con productos o servicios iguales o sustitutivos de los que se desean vender.
+          p(numero="3" titulo="Análisis del público objetivo").mb-0 Análisis exhaustivo de cuál es el #[i target] más interesado en el producto o servicio con el fin de enfocar las estrategias de <i>marketing</i> futuras de este sector.
+          p(numero="4" titulo="Análisis de la competencia").mb-0 Es un análisis de todas las empresas o personas que hacen ruido en la #[i web], posicionándose con productos o servicios iguales o sustitutivos de los que se desean vender.
           p(numero="6" titulo="Análisis DAFO").mb-0 En qué situación se encuentra la empresa, tanto de manera externa como interna a través de sus debilidades, amenazas, oportunidades y fortalezas, minimizando los aspectos negativos internos y externos.
-          p(numero="6" titulo="Estrategias de <i>Marketing</i> Digital").mb-0 Luego de haber analizado la situación, es necesario pensar en la estrategia con la que se va llevar el proyecto a un nuevo posicionamiento en el mercado digital, utilizando todas las herramientas que brinda Internet.
+          p(numero="7" titulo="Estrategias de <i>Marketing</i> Digital").mb-0 Luego de haber analizado la situación, es necesario pensar en la estrategia con la que se va llevar el proyecto a un nuevo posicionamiento en el mercado digital, utilizando todas las herramientas que brinda Internet.
       .col-lg-5(data-aos="flip-right")
         figure
           img(src="@/assets/curso/tema3/18.svg").img350.m-auto
@@ -339,12 +339,12 @@
               img(src='@/assets/curso/tema3/21.svg').img400.m-auto
           .col-lg-7
             h4 Estrategia SEO            
-            p.mb-0 Un estudio sobre palabras clave en las que interesa posicionar la página web en Google y los contenidos que serán necesarios crear el sitio web, para mantener un posicionamiento óptimo y conseguir visitas que lleguen a la conversión. Además, se analizarán otros factores importantes que también jugarán un papel importante en el posicionamiento orgánico.
+            p.mb-0 Un estudio sobre palabras clave en las que interesa posicionar la página #[i web] en Google y los contenidos que serán necesarios crear el sitio #[i web], para mantener un posicionamiento óptimo y conseguir visitas que lleguen a la conversión. Además, se analizarán otros factores importantes que también jugarán un papel importante en el posicionamiento orgánico.
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-7.order-2.order-lg-1
             h4 Estrategias en publicidad digital            
-            p.mb-0 Un análisis sobre medios publicitarios digitales en el que se paga por cada visita obtenida en la web, con todas las posibilidades que estas plataformas brindan, como la microsegmentación de los anuncios o la posibilidad de pausar y reanudar en cualquier momento las campañas de publicidad.
+            p.mb-0 Un análisis sobre medios publicitarios digitales en el que se paga por cada visita obtenida en la #[i web], con todas las posibilidades que estas plataformas brindan, como la microsegmentación de los anuncios o la posibilidad de pausar y reanudar en cualquier momento las campañas de publicidad.
           .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
               img(src='@/assets/curso/tema3/22.svg').img400.m-auto
 
@@ -352,13 +352,13 @@
           .col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
               img(src='@/assets/curso/tema3/23.svg').img400.m-auto
           .col-lg-7
-            h4 Estrategias en email <i>marketing</i>           
+            h4 Estrategias en <i>email marketing</i>           
             p.mb-0 Se trata de estrategias que buscan la forma más efectiva de usar el email como medio para la captación de clientes y de conversión de ventas.
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-7.order-2.order-lg-1
             h4 Estrategia #[i web]
-            p.mb-0 Un análisis sobre los elementos fundamentales que debe tener la página web, el cómo conseguir los objetivos marcados, con especial atención a la accesibilidad de la misma, la identidad, la navegación sencilla e intuitiva, el tipo de contenido y la usabilidad de la misma.
+            p.mb-0 Un análisis sobre los elementos fundamentales que debe tener la página #[i web], el cómo conseguir los objetivos marcados, con especial atención a la accesibilidad de la misma, la identidad, la navegación sencilla e intuitiva, el tipo de contenido y la usabilidad de la misma.
           .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
             img(src='@/assets/curso/tema3/24.svg').img400.m-auto
 
@@ -367,11 +367,11 @@
               img(src='@/assets/curso/tema3/25.svg').img400.m-auto
           .col-lg-7
             h4 Estrategias de <i>inbound marketing</i>            
-            p.mb-0 Atraer a potenciales clientes mediante contenidos digitales de calidad que ellos están consumiendo de manera voluntaria y a partir de aquí seguir “seduciendo” al lector para convertirlo de extraño a visitante regular de la web, de visitante de la web a “lead” (potencial cliente que nos ha dejado sus datos de contacto) de “lead” a cliente y de cliente a promotor o prescriptor de nuestra empresa a través de comentarios o acciones virtuales.
+            p.mb-0 Atraer a potenciales clientes mediante contenidos digitales de calidad que ellos están consumiendo de manera voluntaria y a partir de aquí seguir “seduciendo” al lector para convertirlo de extraño a visitante regular de la #[i web], de visitante de la #[i web] a #[i “lead”] (potencial cliente que nos ha dejado sus datos de contacto) de #[i “lead”] a cliente y de cliente a promotor o prescriptor de nuestra empresa a través de comentarios o acciones virtuales.
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-7.order-2.order-lg-1
-            h4 Estrategias de influencers            
+            h4 Estrategias de <i>influencers</i>            
             p.mb-0 La participación de personas que son influyentes en el mundo digital, como por ejemplo <i>bloggers, youtubers</i> especializados, son una forma de conseguir visibilidad. Se realiza un análisis de personas del campo deseado que permita crear estrategias de colaboración.
           .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
             img(src='@/assets/curso/tema3/26.svg').img400.m-auto
@@ -395,12 +395,12 @@
               img(src='@/assets/curso/tema3/29.svg', alt='Texto que describa la imagen')
           .col-lg-7
             h4 Métodos de pago recomendados (en el caso de que se trate de un <i>e-commerce</i>)
-            p.mb-0 Dentro del mundo del emprendimiento en muchas ocasiones se deja para el final los métodos de pago, siendo estos hoy en día quizá una de las fórmulas más eficaces para rentabilizar ganancias. Existen diversas formas para ofrecer el pago de productos o servicios a través de la página web, en función del público objetivo y las características especiales de cada negocio, será más recomendable optar por unas u otras. Es por ello que se deberá realizar un análisis sobre la forma más conveniente de recibir pago de manera óptima y segura para ambas partes de la negociación.
+            p.mb-0 Dentro del mundo del emprendimiento en muchas ocasiones se deja para el final los métodos de pago, siendo estos hoy en día quizá una de las fórmulas más eficaces para rentabilizar ganancias. Existen diversas formas para ofrecer el pago de productos o servicios a través de la página #[i web], en función del público objetivo y las características especiales de cada negocio, será más recomendable optar por unas u otras. Es por ello que se deberá realizar un análisis sobre la forma más conveniente de recibir pago de manera óptima y segura para ambas partes de la negociación.
 
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2.order-lg-1
             h4 Analítica y medición de resultados
-            p.mb-0 Realizando un listado de las herramientas de analítica para conocer la interacción de los usuarios con la aplicación y la página web, se conocerá el modo de ir mejorando aspectos de la misma.
+            p.mb-0 Realizando un listado de las herramientas de analítica para conocer la interacción de los usuarios con la aplicación y la página #[i web], se conocerá el modo de ir mejorando aspectos de la misma.
           .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
               img(src='@/assets/curso/tema3/30.svg').img400.m-auto
 
@@ -461,9 +461,9 @@
         LineaTiempoD.color-primario
           p(numero="1" titulo="Videos").mb-0 Los videos, según informe de Cisco, ya son el formato de contenido más consumido de Internet y serán aún más. Hasta 2021, la expectativa es que representen el 82% del tráfico global.
 
-          p(numero="2" titulo="Blogsposts").mb-0 Este es el formato más utilizado en las estrategias de producción de contenido que buscan engagement.
+          p(numero="2" titulo="Blogsposts").mb-0 Este es el formato más utilizado en las estrategias de producción de contenido que buscan #[i engagement].
 
-          p(numero="3" titulo="Webinars").mb-0 Son conferencias, charlas o chats realizados <i>online</i> y en directo para un grupo de espectadores virtuales. 
+          p(numero="3" titulo="<i>Webinars</i>").mb-0 Son conferencias, charlas o chats realizados <i>online</i> y en directo para un grupo de espectadores virtuales. 
 
           p(numero="4" titulo="Memes en video").mb-0 Son formatos más simples y que difícilmente educan al mercado o convencen a alguien a una conversión.
 
@@ -473,7 +473,7 @@
 
           p(numero="7" titulo="Aplicaciones").mb-0 Herramientas que pretenden facilitar la vida de los usuarios.
 
-          p(numero="8" titulo="Slides").mb-0 Útiles para presentación en eventos, en slideshare o en webinars.
+          p(numero="8" titulo="<i>Slides</i>").mb-0 Útiles para presentación en eventos, en slideshare o en <i>webinars</i>.
 
           p(numero="9" titulo="Películas").mb-0 Son uno de los formatos más utilizados en la historia de la publicidad y del <i>marketing</i>. Obviamente, no estamos hablando de largometrajes, sino de los viejos, queridos y actuales comerciales.
 

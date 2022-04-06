@@ -50,7 +50,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/1.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-2 Cabe mencionar que es necesario que el reel debe destacarse, no ser monótono, sino que debe tener ritmo, que se muestre acción, para lo cual es bueno marcar el ritmo mediante la selección de música de fondo que compagine y marque el ritmo de lo que se quiere enseñar. #[strong ¿Cómo ingresar a la industria?], se deben tener en cuenta los siguientes <i>tips</i>, al momento de realizar el demo reel:
+        p.mb-2 Cabe mencionar que es necesario que el <i>reel</i> debe destacarse, no ser monótono, sino que debe tener ritmo, que se muestre acción, para lo cual es bueno marcar el ritmo mediante la selección de música de fondo que compagine y marque el ritmo de lo que se quiere enseñar. #[strong ¿Cómo ingresar a la industria?], se deben tener en cuenta los siguientes <i>tips</i>, al momento de realizar el demo <i>reel</i>:
     <br>
     <br>
     .row.mb-5
@@ -65,7 +65,7 @@
 
           p(numero="3" titulo="Duración").mb-0 Generalmente, la mayoría de las compañías que reciben <i>demo reels</i>, no cuentan con el tiempo suficiente para revisar todas estas ofertas; por lo tanto, si un <i>demo reel</i> es demasiado largo es probable que decidan descartarlo; por tal razón, es importante que este no sobrepase los 2 minutos, incluyendo en el video solo los mejores trabajos, aquellos de mayor calidad y destacando en primer lugar el más sobresaliente. Por lo tanto, enseña solo calidad, no cantidad, así es que los trabajos más destacados son la principal carta de presentación. 
 
-          p(numero="4" titulo="Organización").mb-0 Se debe seleccionar y hacer uso solo de aquel material con el contenido que muestre lo mejor del trabajo y que se considera adecuado para exhibir el potencial creativo organizándolo de una manera secuencial, con transiciones rápidas y llamativas. Como tip se debe poner la mejor secuencia al principio y al final, comenzando y terminando el video con escenas de los trabajos más sobresalientes, de manera que se enfoque y mantenga la atención del observador en las destrezas y cualidades que se desean demostrar.
+          p(numero="4" titulo="Organización").mb-0 Se debe seleccionar y hacer uso solo de aquel material con el contenido que muestre lo mejor del trabajo y que se considera adecuado para exhibir el potencial creativo organizándolo de una manera secuencial, con transiciones rápidas y llamativas. Como <i>tip</i> se debe poner la mejor secuencia al principio y al final, comenzando y terminando el video con escenas de los trabajos más sobresalientes, de manera que se enfoque y mantenga la atención del observador en las destrezas y cualidades que se desean demostrar.
 
           p(numero="5" titulo="Audio").mb-0 Al tratarse de una pieza audiovisual, se puede decir que el sonido es tan importante como la parte visual; por tal motivo, es necesario utilizar música o audios adecuados que sean acordes con el contenido del video, teniendo en cuenta el ritmo que acompaña las imágenes de manera que se genere una producción armónica.
 

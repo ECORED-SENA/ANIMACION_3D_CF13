@@ -18,9 +18,7 @@
             img(src="@/assets/curso/intro/intro.svg", alt="alt", style="width:450px;").m-auto
 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/BSctkDEniJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
-
-           
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WQpAZjdIM7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
       
     
    

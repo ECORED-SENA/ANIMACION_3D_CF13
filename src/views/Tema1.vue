@@ -30,21 +30,21 @@
 
     
     .BG04.mb-4
-      h4.text-white.mb-0 De igual forma existen otras como son
+      h4.text-white.mb-0 De igual forma existen otras como son:
 
     .row.mb-5
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-primario
-          p(numero="1" titulo="Relación Aspecto 1:1:") Significa que la altura y el ancho son iguales, lo cual crea un cuadrado visualmente, una de las resoluciones más comunes son 1080 x 1080, la típica imagen como foto de perfil de Instagram. También es muy común el uso de impresión fotográfica, pantallas de móviles, plataformas sociales, pero no se recomienda para televisión o formatos digitales  
-          p(numero="2" titulo="Relación Aspecto 3:2:") Es el formato estándar gracias a las cámaras filmadoras que utilizaban películas de 35 milímetros, representado en píxeles su tamaño común es de 1080 x 720 px.
-          p(numero="3" titulo="Relación Aspecto 4:3 (1.33:1):") Relación Aspecto 4:3 (1.33:1):
+          p(numero="1" titulo="Relación aspecto 1:1:") Significa que la altura y el ancho son iguales, lo cual crea un cuadrado visualmente, una de las resoluciones más comunes son 1080 x 1080 px, la típica imagen como foto de perfil de Instagram. También es muy común el uso de impresión fotográfica, pantallas de móviles, plataformas sociales, pero no se recomienda para televisión o formatos digitales  
+          p(numero="2" titulo="Relación aspecto 3:2:") Es el formato estándar gracias a las cámaras filmadoras que utilizaban películas de 35 milímetros, representado en píxeles su tamaño común es de 1080 x 720 px.
+          p(numero="3" titulo="Relación aspecto 4:3 (1.33:1):") Relación Aspecto 4:3 (1.33:1 px):
           p(numero="4" titulo="Relación aspecto 16:9 (1.77:1):") Este es el formato de pantalla estándar utilizado de televisión de alta definición, su tamaño más común en pixeles es 1920x1080 px y 1280 x 720 px.
-          p(numero="5" titulo="Relación aspecto 21:9 (2.35:1):") Este es el formato más usado en cine, con una dimensión en píxeles de 2560 x 1080 px o 3440 x 1440 tienen un formato de tamaño mucho más apaisado que el de 16:9.
+          p(numero="5" titulo="Relación aspecto 21:9 (2.35:1):") Este es el formato más usado en cine, con una dimensión en píxeles de 2560 x 1080 px o 3440 x 1440 px tienen un formato de tamaño mucho más apaisado que el de 16:9.
       .col-md-6(data-aos="flip-right")
         img(src="@/assets/curso/tema1/img04.png").img-450.m-auto
 
     .bg_C01       
-      p.mb-5 A continuación, en la figura 1 se puede observar una comparativa de relación de aspecto (<i>aspect ratio</i>) con una resolución de tamaño proporcional a 720 px. donde se logra apreciar que algunos formatos son cuadrados, rectangulares o muy apaisados: 
+      p.mb-5 A continuación, en la figura 1 se puede observar una comparativa de relación de aspecto (<i>aspect ratio</i>) con una resolución de tamaño proporcional a 720 px, donde se logra apreciar que algunos formatos son cuadrados, rectangulares o muy apaisados: 
     
       .row.justify-content-center.mb-4
         .col-lg-10
@@ -54,7 +54,7 @@
           figure.mb-5(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img05.svg")
       
-      p.mb-4 La forma de exportar videos desde Blender varía en función a la plataforma en que se van a reproducir los proyectos audiovisuales, no es lo mismo exportar para redes sociales, que hacerlo para blu ray o pantalla grande, pero para todos los casos es importante y funcional, así que se hace necesario conocer los parámetros que debe ajustarse para ello:
+      p.mb-4 La forma de exportar videos desde Blender varía en función a la plataforma en que se van a reproducir los proyectos audiovisuales, no es lo mismo exportar para redes sociales, que hacerlo para Blu-ray o pantalla grande, pero para todos los casos es importante y funcional, así que se hace necesario conocer los parámetros que debe ajustarse para ello:
 
       .row.justify-content-center.mb-4
         .col-lg-6
@@ -66,7 +66,7 @@
             .BG02.p-4
               figure.mb-4(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/img06.png')
-              p.text-center  Pero ahora las pantallas de los últimos 20 años suelen ser de 16:9, que es el estándar por excelencia, lo que ha generalizado las emisiones televisivas, y el streaming.  Este tipo de aspecto, tiene una visión panorámica.
+              p.text-center  Pero ahora las pantallas de los últimos 20 años suelen ser de 16:9, que es el estándar por excelencia, lo que ha generalizado las emisiones televisivas, y el #[i streaming].  Este tipo de aspecto, tiene una visión panorámica.
             .BG02.p-4
               figure.mb-4(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/img07.png')
@@ -79,7 +79,7 @@
               img(src='@/assets/curso/tema1/img08.png').img65
             .col
               h4 <i>Aspect ratio</i>
-              p En los siguientes videos, podremos observar cómo ajustar los parámetros para realizar la salida de video desde Blender, ajustando el <i>aspect ratio</i>, codec y contenedor.
+              p En los siguientes videos, podremos observar cómo ajustar los parámetros para realizar la salida de video desde Blender, ajustando el <i>aspect ratio</i>, <i>codec</i> y contenedor.
             .col-auto
               .row.flex-column
                 .col-auto.mb-2    
@@ -133,12 +133,12 @@
         LineaTiempoD.color-primario
           p(numero="1" titulo="Contenedor MP4:") Conservan alta calidad, manteniendo un tamaño reducido. Es de los más utilizados actualmente, se usa frecuentemente para compartir en línea, puede contener datos adicionales como subtítulos e imágenes estáticas. Es combinado generalmente con h.264 y h.265.
           p(numero="2" titulo="Contenedor AVI:") Formato de video posicionado y antiguo, tiende a generar archivos grandes, pero soportados por gran variedad de <i>códecs</i>. No es útil para la transmisión en línea.
-          p(numero="3" titulo="Contenedor MKV:") Formato de video profesional de código abierto llamado matroska en el cual se pueden almacenar anexados al canal de audio, varios tipos de subtítulos, varias pistas de audio.
-          p(numero="4" titulo="Contenedor FLV:") Actualmente de reducido su uso, fue el formato más común en reproductores en línea, no se recomienda trabajar en este formato puesto que se ha terminado la compatibilidad para él.
-          p(numero="5" titulo="Contenedor MOV:") Calidad alta pero limitada compatibilidad, además de generar archivos muy grandes. ideal para archivar videos de alta calidad.
+          p(numero="3" titulo="Contenedor MKV:") Formato de video profesional de código abierto llamado Matroska en el cual se pueden almacenar anexados al canal de audio, varios tipos de subtítulos, varias pistas de audio.
+          p(numero="4" titulo="Contenedor FLV:") Actualmente se ha reducido su uso, fue el formato más común en reproductores en línea, no se recomienda trabajar en este formato puesto que se ha terminado la compatibilidad para él.
+          p(numero="5" titulo="Contenedor MOV:") Calidad alta pero limitada compatibilidad, además de generar archivos muy grandes. Ideal para archivar videos de alta calidad.
           p(numero="6" titulo="Contenedor WMV:") Este tipo de formato genera videos pequeños ideales para ser enviados por correo, como muestra de avances. Pierde calidad significativamente al ser archivos pequeños.
           p(numero="7" titulo="Contenedor DIVX/XviD:") <i>Codec</i> antiguo que aún circula, diseñado para tener calidad de video alta, pero a su vez tamaños de archivos grandes. Usado frecuentemente para el almacenamiento y transporte en discos duros.
-          p(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de <i>bits</i> tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
+          p(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para Blu-ray y servidores #[i web]. Se puede utilizar a tasas de <i>bits</i> tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
 
     .hr--line
 
@@ -174,13 +174,13 @@
                 .col-lg-6
                   img(src='@/assets/curso/tema1/img12.svg').img90.m-auto
               h2.text-center GIF:
-              p.text-center Es un formato de compresión sin pérdidas manteniendo los archivos ligeros, y es altamente compatible por lo que a menudo se usa para compartir principalmente, gráficos webs sencillos y animaciones cortas sin sonido (GIF animados).
+              p.text-center Es un formato de compresión sin pérdidas manteniendo los archivos ligeros, y es altamente compatible por lo que a menudo se usa para compartir principalmente, gráficos #[i web] sencillos y animaciones cortas sin sonido (GIF animados).
             .tarjeta-1.p-4
               .row.justify-content-center.mb-4
                 .col-lg-6
                   img(src='@/assets/curso/tema1/img13.svg').img90.m-auto
               h2.text-center PNG:
-              p.text-center Se trata de un formato de compresión diseñado para gráficos web usado como mejora del GIF, y al igual que éste, no presenta pérdidas de calidad al editarse, permitiendo archivos más grandes e imágenes más complejas con colores sólidos y líneas nítidas; a diferencia de los GIF, pueden contener un grado de transparencia brindando mayor flexibilidad al editar o crear imágenes y gráficos en la web, aunque sin permitir la animación de los mismos, además solo admiten colores RGB y su compatibilidad es limitada.
+              p.text-center Se trata de un formato de compresión diseñado para gráficos #[i web] usado como mejora del GIF, y al igual que éste, no presenta pérdidas de calidad al editarse, permitiendo archivos más grandes e imágenes más complejas con colores sólidos y líneas nítidas; a diferencia de los GIF, pueden contener un grado de transparencia brindando mayor flexibilidad al editar o crear imágenes y gráficos en la #[i web], aunque sin permitir la animación de los mismos, además solo admiten colores RGB y su compatibilidad es limitada.
             .tarjeta-1.p-4
               .row.justify-content-center.mb-4
                 .col-lg-6
@@ -245,15 +245,15 @@
               p #[strong 16:9], <i>ratio</i> horizontal: 1920 x 1080 px.
               p #[strong 1:1] <i>ratio</i> cuadrado: 1080 x 1080 px.
               p #[strong 4:5] <i>ratio</i> Vertical: 864 x 1080 px.
-              p.mb-0 #[strong 9:16] _ 1080x1920 px. 
+              p.mb-0 #[strong 9:16] 1080 x 1920 px. 
 
           .row(numero="G" titulo="Formato de video para Twitter:")
             .col-auto.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/r4.svg', alt='Texto que describa la imagen')
             .col-12.col-lg
-              P #[strong 1280 x 1024 px].
-              p.mb-0 #[strong #[i Aspect ratio]: 1:2,39 -2,39:1.]
+              P 1280 x 1024 px
+              p.mb-0 #[strong #[i Aspect ratio]:] <br>1:2,39 -2,39:1.
 
 </template>
 

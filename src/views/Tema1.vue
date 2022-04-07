@@ -212,7 +212,7 @@
               p #[strong Formato MPEG-2:] salida en codificación de audio: <i>Dolby</i> AC-3 o MPEG <i>Layer</i> II, <i>bits</i> de audio: 128 kbps o superior.
               p #[strong Formato MPEG-4:] <i>códec</i> de video: H.264, <i>Códec</i> de audio: AAC, <i>bits</i> de audio: 128 kbps o superior.
               p #[strong Duración] mínima: 33, velocidad de <i>frames</i>, debe ser igual al video original (24, 25 o 30 <i>frames</i>.) Sin aplicarle procesos de remuestreo.
-              p #[strong Resolución:] La resolución mínima para videos en venta o alquiler es full HD 1920x1080, en relación aspecto 16:9, para videos gratis no hay restricción de resolución, pero lo ideal es que no sea menor a HD 1280x720.
+              p #[strong Resolución:] La resolución mínima para videos en venta o alquiler es full HD 1920x1080, en relación aspecto 16:9, para videos gratis no hay restricción de resolución, pero lo ideal es que no sea menor a HD 1280x720 px.
 
           .row(numero="B" titulo="Formato de video para Instagram: ")
             p formato .mp4, <i>ratio</i> vertical 9:16,<i>ratio</i> horizontal 16:9, ratio 1:1 Cuadrada: 1080 x 1080 px - Horizontal: 1080 x 566 px - Vertical: 1080 x 1350 px.
@@ -230,7 +230,7 @@
           
           .row(numero="D" titulo="Formato de vídeo para Pinterest: formato .mp4.")
             .col-12
-              p.mb-0 Pinterest acepta todo tipo de formatos de video, pero para un óptimo resultado en su interfaz lo recomendable es que su formato sea de 1000 x 1500 pixeles
+              p.mb-0 Pinterest acepta todo tipo de formatos de video, pero para un óptimo resultado en su interfaz lo recomendable es que su formato sea de 1000 x 1500 pixeles.
 
           .row(numero="E" titulo="Formato de vídeo para TikTok: formato .mp4.")
             .col-12

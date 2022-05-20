@@ -1,6 +1,6 @@
 # **Animación 3D - CF13**
 
-## **https://ecored-sena.github.io/ANIMACION_3D_CF13/**
+## **Enlace GitHubPages**
 
 [https://ecored-sena.github.io/ANIMACION_3D_CF13/](https://ecored-sena.github.io/ANIMACION_3D_CF13/)
 
